@@ -1,0 +1,361 @@
+
+        <section class="slider-box">
+        	<!--<carousel interval="myInterval">
+		      <slide ng-repeat="slide in slides" active="slide.active">
+		      	<img ng-src="{{slide.image}}" ng-click="openLink($slide.link)">
+		        <div class="slider-mask">
+		          <div class="caption"><h1 class="font-6x font-100">{{slide.caption}}</h1></div>
+		          <div class="second-level-caption"><p class="dark font-100 welcome-mess">
+		          	{{slide.caption2}}</p></div>
+		       	  </div>
+		       	  <div class="third-level-caption"><p class="uppercase letter-spacing"><b>
+		       	  	{{slide.caption3}}</b></p></div>
+		      </slide>
+		    </carousel>-->
+	        <div id="main_banner" class="demo">
+				<div onclick="location.href='el-hotel.html';" class="text-white text-center carousel-slide" style="background: url(img/home_page/big_slider/DSC_2481.jpg) no-repeat 50% 50%; background-size: cover;">
+					<div class="slider-mask">
+						<div class="caption"><h1 class="font-6x font-100">Hotel Villa Tournon</h1></div>
+						<div class="second-level-caption"><p class="dark font-100 welcome-mess">{{VisitUs}}</p></div>
+						<div class="third-level-caption"><p class="uppercase letter-spacing"><b>You are Welcome</b></p></div>
+					</div>
+				</div>
+				<div onclick="location.href='rooms.html';" class="text-white text-center carousel-slide" style="background: url(img/home_page/big_slider/DSC_2097.jpg) no-repeat 50% 50%; background-size: cover;">	
+				</div>
+				<div onclick="location.href='rooms.html';" class="text-white text-center carousel-slide" style="background: url(img/home_page/big_slider/DSC_2286.jpg) no-repeat 50% 50%; background-size: cover;">	
+				</div>
+				<div onclick="location.href='ebony_&_ivory.html';" class="text-white text-center carousel-slide" style="background: url(img/home_page/big_slider/DSC_2398.jpg) no-repeat 50% 50%; background-size: cover;">
+					<div class="slider-mask">
+						<div class="caption"><h1 class="font-6x font-100">Ebony &amp; Ivory</h1></div>
+						<div class="second-level-caption"><p class="dark font-100 welcome-mess">Come and enjoy our new restaurant</p></div>
+						<div class="third-level-caption"><p class="uppercase letter-spacing"><b>You are Welcome</b></p></div>
+					</div>
+				</div>
+				<div onclick="location.href='services.html';" class="text-white text-center carousel-slide" style="background: url(img/home_page/big_slider/DSC_1979.jpg) no-repeat 50% 50%; background-size: cover;">
+					<div class="slider-mask">
+						<div class="caption"><h1 class="font-6x font-100">Pool &amp; Jacuzzi</h1></div>
+						<div class="third-level-caption"><p class="uppercase letter-spacing"><b>With us you will enjoy your Vacation</b></p></div>
+					</div>	
+				</div>	
+				<div class="text-white text-center carousel-slide" style="background: url(img/home_page/big_slider/DSC_2494.jpg) no-repeat 50% 50%; background-size: cover;">
+					<div class="slider-mask">
+						<div class="caption"><h1 class="font-6x font-100">San José, Costa Rica</h1></div>	
+					</div>	
+				</div>	
+				<div class="container custom-controls">
+					<span id="controls">
+						<a href="#" class="arrow left select-none"><i class="icon-83"></i></a>
+						<a href="#" class="arrow right select-none next-nav"><i class="icon-90"></i></a>
+					</span>
+				</div> 
+			</div>
+		</section>
+        <!-- / #main_banner -->
+		<section class="box border-bottom book-box" data-stellar-background-ratio="0.5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4 class="the-title text-center font-300"> {{Reserve}}</h4>
+						<div class="booking-form">
+							<form action="booking.html" method="GET" enctype="text/plain"  class="row no-padding" name="bookingHome">
+								<div class="col-md-2 col-sm-12">
+									<i class="icon-201"></i>
+									<input type="text" readonly class="room-select" placeholder={{Room}} name="room" value="Deluxe" required>
+									<ul class="clean-list font-small" required>
+										<li>Deluxe</li>
+										<li>Superior</li>
+										<li>Standard</li>
+									</ul>
+								</div>
+								<div class="col-md-2 col-sm-6">
+									<i class="icon-233"></i>
+									<input type="text" id="check-in" placeholder="Check in" name="checkIn" required>
+								</div>
+								<div class="col-md-2 col-sm-6">
+									<i class="icon-233"></i>
+									<input type="text" id="check-out" placeholder="Check out" name="checkOut" required>
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<input type="number" class="dark text-white" placeholder={{NumberRooms}} name="NumberRooms" required>
+								</div>
+								<div class="col-md-2 col-sm-12 text-right">
+									<button type="submit" class="gold button-md soft-corners" ng-disabled="bookingHome.$invalid">Book Now</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!-- /.book-form -->
+		<section class="box border-bottom"><!-- Welcome to Hotel Villa Tournon -->
+		    <div class="container">
+				    <div class="row">
+				        <div class="row">
+						<div class="col-md-12">
+							<div class="text-dark-black  text-center fancy-heading">
+								<h1 class="font-700">{{Welcome}}</h1>
+								<hr class="text-dark-black  size-30 center-me">
+								<p>{{To}}</p>				
+							</div>
+						</div>
+					</div> <!-- /.row -->
+			        <div class="col-md-8">
+			            <p>{{HotelMin}}<a class="text-dark-black" href="#/el-hotel">{{ReadMore}}</a></p>
+			        </div>
+			        <!-- Full Page Image Background Carousel Header -->
+			        <div class="col-md-4 small-slider">
+			            <div id="myCarousel" class="carousel slide">
+			                <!-- Wrapper for Slides -->
+			                <div class="carousel-inner">
+			                    <div class="item active">
+			                        <div class="fill" ><img src="img/home_page/art_gallery_carousel/DSC_2515.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2619.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2521.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2439.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2446.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2601.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2538.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2542.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2553.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2566.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2558.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2568.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2570.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2572.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2575.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2577.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2591.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2593.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2583.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2595.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2599.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2617.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2618.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2515.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2621.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="fill"><img src="img/home_page/art_gallery_carousel/DSC_2623.jpg" alt="Hotel Art Gallery"/></div>
+			                    </div>
+			                </div>
+			                <!-- Controls -->
+			                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			                    <span class="icon-prev"></span>
+			                </a>
+			                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			                    <span class="icon-next"></span>
+			                </a>
+			            </div>
+			        </div> 
+			    </div>
+		    </div>
+		</section><!-- / Welcome to Hotel Villa Tournon -->
+		<section class="box border-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-dark-black text-center fancy-heading">
+							<h1 class="font-700">{{Services}}</h1>
+							<hr class="text-dark-black size-30 center-me">
+							<p>{{Offer}}</p>				
+						</div>
+					</div>
+				</div> <!-- /.row -->
+				<ul class="clean-list facilities-items text-center row">
+					<li class="col-md-3 col-sm-4">
+						<div class="facility-item">
+							<div class="shape-square aquablue">
+								<figure>
+									<a href="#/services">
+										<img src="img/home_page/services/DSC_2237.jpg" alt="lobby">
+									</a>
+								</figure>
+							</div>
+							<span class="uppercase font-300 text-golden facility-text">Lobby</span>					
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-4">
+						<div class="facility-item">
+							<div class="shape-square aquablue">
+								<figure>
+									<a href="#/ebony">
+										<img src="img/home_page/services/DSC_2409.jpg" alt="Ebony & Ivory Restaurant">
+									</a>
+								</figure>
+							</div>
+							<span class="uppercase font-300 text-golden facility-text"><b>{{Ebony}}</b></span>					
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-4">
+						<div class="facility-item">
+							<div class="shape-square aquablue">
+								<figure>
+									<a href="#/services">
+										<img src="img/home_page/services/DSC_2309.jpg" alt="Rincon Azul Restaurant">
+									</a>
+								</figure>
+							</div>
+							<span class="uppercase font-300 text-golden facility-text">{{RinconAzul}}</span>					
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-4">
+						<div class="facility-item">
+							<div class="shape-square aquablue">
+								<figure>
+									<a href="#/services">
+										<img src="img/home_page/services/DSC_1987.jpg" alt="Pool and Jacuzzi">
+									</a>
+								</figure>
+							</div>
+							<span class="uppercase font-300 text-golden facility-text">{{Pool}}</span>					
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-4">
+						<div class="facility-item">
+							<div class="shape-square aquablue">
+								<figure>
+									<a href="#/services">
+										<img src="img/home_page/services/DSC_2687.jpg" alt="Bussiness">
+									</a>
+								</figure>
+							</div>
+							<span class="uppercase font-300 text-golden facility-text">{{Business}}</span>					
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-4">
+						<div class="facility-item">
+							<div class="shape-square aquablue">
+								<figure>
+									<a href="#/services">
+										<img src="img/home_page/services/DSC_2262.jpg" alt="Special Activities">
+									</a>
+								</figure>
+							</div>
+							<span class="uppercase font-300 text-golden facility-text">{{SpecialActivities}}</span>					
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-4">
+						<div class="facility-item">
+							<div class="shape-square aquablue">
+								<figure>
+									<a href="#/services">
+										<img src="img/home_page/services/DSC_2603.jpg" alt="art gallery">
+									</a>
+								</figure>
+							</div>
+							<span class="uppercase font-300 text-golden facility-text">{{Art}}</span>					
+						</div>
+					</li>
+				</ul>
+			</div> <!-- /.container -->
+		</section> <!-- /.facilities -->
+		<section class="box border-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-dark-black text-center fancy-heading">
+							<h1 class="font-700">{{Rooms}}</h1>
+							<hr class="text-dark-black size-30 center-me">				
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row">
+							<ul class="clean-list rooms-items">
+								<li>
+									<div class="text-center col-md-4">
+										<h3 class="text-dark-black"><a href="room-preview-standard.html" class="text-dark-black hover-text-aquablue">Standard</a></h3>
+										<figure>
+											<a href="room-preview-standard.html"><img src="img/home_page/rooms/DSC_2648.jpg" alt="Standard Room"></a> 
+										</figure>
+										<div class="rooms-description">
+											<p>
+												{{Standard}}
+											</p>
+											<a href="room-preview-standard.html" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="text-center col-md-4">
+										<h3 class="text-dark-black"><a href="room-preview-superior.html" class="text-dark-black hover-text-aquablue">Superior</a></h3>
+										<figure>
+											<a href="room-preview-superior.html"><img src="img/home_page/rooms/DSC_2369.jpg" alt="Superior Room"></a> 
+										</figure>
+										<div class="rooms-description">
+											<p>
+												{{Superior}} 
+											</p>
+											<a href="room-preview-superior.html" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="text-center col-md-4">
+										<h3 class="text-dark-black"><a href="room-preview-deluxe.html" class="text-dark-black hover-text-aquablue">Deluxe</a></h3>
+										<figure>
+											<a href="room-preview-deluxe.html"><img src="img/home_page/rooms/DSC_2157.jpg" alt="Deluxe Room"></a> 
+										</figure>
+										<div class="rooms-description">
+											<p>
+												{{Deluxe}} 
+											</p>
+											<a href="room-preview-deluxe.html" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
+										</div>
+									</div>
+								</li>
+							</ul> <!-- /.rooms-items -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>

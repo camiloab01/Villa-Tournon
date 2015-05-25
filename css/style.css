@@ -1,0 +1,386 @@
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	font-size: .8em;
+	text-align: center;
+	text-decoration: none;
+	width: 30px;
+    height: 30px;
+	color: #FFF;
+	background-color: #000;
+	padding-top: 12px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.booking-form {
+	background-color: #b19261;
+}
+
+.gold {
+	background-color: #b19261;
+	border: 2px solid #fff !important;
+}
+
+.gold:hover {
+	background-color: #81663c;
+}
+
+.dark {
+	background-color: #81663c;
+}
+
+.the-title {
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.text-dark-black {
+	color: #000;
+}
+
+.text-golden {
+	color: #b19261;
+}
+
+/*small slider*/
+#myCarousel {
+    height: 35%;
+	width:  26.333333%;
+    position: absolute;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.small-slider {
+    position: inherit;
+}
+
+.carousel-indicators {
+	bottom: 0px;
+}
+
+@media screen and (max-width: 750px) {
+    #myCarousel {
+		height: 19%;
+  		width: 95%;
+	}
+	.col-md-12 {
+	margin-top: 60px;
+	}
+	.carousel-control {
+		font-size: 60px;
+	}
+}
+
+.center-social {
+	text-align: center;
+	margin-top: 14px;
+}
+
+.center-social > .socialbtns .fa {
+	font-size: 2.5em;
+	width: 50px;
+	height: 50px;
+}
+
+.footer-box  {
+	padding: 10px 0px 0px 0px!important;
+}
+
+.top-price {
+	margin-top: 10px;
+}
+
+/*CAROUSEL STYLING*/
+#main_banner, .carousel-slide{
+	height: 35em;
+}
+.carousel-slide{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	display: none;
+}
+.carousel-slide.on{
+	z-index: 9;
+	opacity: 1;
+}
+
+.second-level-caption {
+	margin-top: 70px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	background: #b19261;
+	width: 50%;
+	margin: 0 auto;
+}
+.caption {
+	margin-top: 180px;
+	text-align: center;
+	/*font-size: 24px;*/
+	color: white;
+}
+.caption span {
+	display: block;
+	padding-top: 15px;
+	font-size: 34px;
+}
+/*.left{
+	left: 25px;
+}
+.right {
+	right: 25px;
+}*/
+.select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.center-img {
+	margin: 0 auto;
+}
+
+@media (max-width: 986px) {
+	.caption, .second-level-caption, .third-level-caption {
+		display: none;	
+	}
+
+}
+
+@media (max-width: 768px) {
+	#main_banner, .carousel-slide{
+		height: 300px;
+	}
+	.caption {
+		margin-top: 135px;
+		font-size: 18px;
+	}
+	.caption span {
+		font-size: 24px;
+	}
+	.arrow {
+		top: 190px;
+		font-size: 28px;
+		padding: 2px 12px 4px 10px;
+	}
+	.left{
+		left: 15px;
+	}
+	.right {
+		right: 15px;
+	}
+
+}
+@media (max-width: 480px) {
+	#main_banner, .carousel-slide{
+		height: 210px;
+	}
+	.caption {
+		margin-top: 95px;
+		font-size: 18px;
+	}
+	.caption span {
+		font-size: 24px;
+	}
+	.arrow {
+		top: 160px;
+		font-size: 20px;
+		padding: 0 9px 5px;
+	}
+	.left{
+		left: 7px;
+	}
+	.right {
+		right: 7px;
+	}
+	
+}
+
+.text-center {
+	text-align: center;
+}
+
+.row-margin {
+	margin: 0 0 25px 0;
+}
+
+.clean-list-padding {
+	padding-top: 30px !important;
+}
+
+.lenguage-span {
+	font-size: 13px;
+}
+
+.header-bar {
+	height: 55px;
+}
+
+.header-meta {
+  margin: 17px 0 !important;
+}
+
+.text-red {
+	color: #f92121;
+}
+
+.preview-room-nav-room ul {
+	margin-left: 350px !important;
+	/*for mobile	*/
+  	/*margin-left: 95px !important;*/
+}
+
+ul.stars.text-golden {
+	padding-left: 0px !important;
+	position: absolute;
+  	margin-top: 13px;
+	/*display: inline-block;*/
+	/*position: absolute;*/
+}
+.stars li {
+	display: inline-block;
+	/*position: absolute;*/
+}
+
+.header-meta {
+	margin-left: 90px !important;
+}
+
+.header-meta li {
+	padding: 0 8px !important;
+}
+
+li.col-sm-5.col-md-6.room-3 {
+  margin-left: 300px;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 500px) {
+	#myCarousel {
+	  	height: 26%;
+	  	/*width: 100%;*/
+	}
+	#myCarousel {
+		position: inherit;
+	}
+	a.left, a.right {
+		display: none;
+	}
+	img.logo-img {
+		height: 83px;
+		width: 115px;
+		/*width: 100px;*/
+	}
+	.booking-info h3 {
+  		font-size: 1.2em;
+	}
+	.booking-nav h4 {
+  		display: block !important;
+  		font-size: 1em;
+	}
+	p.text-right {
+		text-align: center !important;
+	}
+	.col-md-12 {
+   		margin-top: 0px; 
+	}
+	.price-row {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	iframe {
+		width: 390px !important;
+	}
+	iframe.iframe-el-hotel {
+		width: 370px !important;
+	}
+	.heading-style {
+  		margin-top: 5px;
+  		text-align: center;
+	}
+	.private-design {
+  		margin-right: 15px;
+	}
+	.preview-room-nav-room ul {
+  		margin-left: 95px !important;
+	}
+	.room-prev-descrip p {
+		display: none;
+	}
+	.room-3 {
+		margin-left: 0px !important;
+	}
+	h1.font-2x.font-300.text-dark-black {
+  		font-size: 1.5em;
+  		margin-top: 10px;
+	}
+	.rooms-footer {
+  		padding: 10px;
+	}
+	a.button-sm.to-right.grey.text-black.hover-orange.soft-corners, span.to-left.align-button {
+		float: none;
+	}
+}	
+
+@media screen and (max-width: 384px) {
+	iframe.iframe-el-hotel {
+  		width: 300px !important;
+	}
+	iframe {
+		width: 330px !important;
+	}
+}	
+
+@media screen and (max-width: 320px) {
+	iframe {
+  		width: 292px !important;
+	}
+	iframe.iframe-el-hotel {
+  		width: 277px !important;
+	}
+}
