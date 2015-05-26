@@ -29,7 +29,6 @@
 						<ul class="clean-list">
 							<li>
 								<div class="row">
-									<div class="col-md-12">
 										<div class="grey booking-info">
 											<div class="row">
 												<div class="col-md-2 col-sm-3">
@@ -47,8 +46,9 @@
 													</ol>
 													<div class="grey booking-form">
 														<div class="col-md-2">
-															<select id="roomSelected" name="room_selected" ng-change="roomChanged()" 
+															<select class="cs-select cs-skin-elastic" id="roomSelected" name="room_selected" ng-change="roomChanged()" 
 															ng-model="RoomSelected">
+																<option disabled selected>Rooms</option>
 																<option>Superior</option>
 																<option>Deluxe</option>
 																<option>Standard</option>
@@ -97,65 +97,6 @@
 																<input type="text" id="check-out" placeholder="Check out" name="check_out"
 																ng-model = "CheckOutSelected" ng-change="dateChanged()" >
 															</div>
-														</div>
-														<div class="col-md-4">
-															<br/>
-															<table>
-																<tbody>
-																	<tr>
-																		<td>Room price: </td>
-																		<td class="text-right"><span class="text-orange">$ {{RoomPrice}} / night </span></td>
-																	</tr>
-																	<tr>
-																		<td>Nights: </td>
-																		<td class="text-right"><span class="text-orange">{{daysNumber}}</span></td>
-																	</tr>
-																	<tr>
-																		<td>Rooms: </td>
-																		<td class="text-right text-orange"><span>{{NumberRoomsSelected}}</span></td>
-																	</tr>
-																	<tr>
-																		<td>Adults: </td>
-																		<td class="text-right text-orange"><span>{{NumberAdultsSelected}}</span></td>
-																	</tr>
-																	<tr>
-																		<td class="uppercase font-500 text-orange">Grand-total:</td>
-																		<td class="text-right text-orange">$ {{GrandTotal}}</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-														<div class="col-md-8">
-															<ul class="col-md-offset-1">
-																<li>
-																	<i class="icon-89"></i>
-																	{{AllTaxes}}
-																</li>
-																<li>
-																	<i class="icon-89"></i>
-																	{{Children10}}
-																</li>
-																<li>
-																	<i class="icon-89"></i>
-																	{{ChildrenMax}}
-																</li>
-																<li>
-																	<i class="icon-89"></i>
-																	{{ChildrenBreakFast}}
-																</li>
-																<li>
-																	<i class="icon-89"></i>
-																	{{RatesUSD}}
-																</li>
-																<li>
-																	<i class="icon-89"></i>
-																	{{SmokeFree}}
-																</li>
-															</ul>
-															<br><br><br>
-															<p class="clearfix">
-																<button class="button-md gold to-right nav-step" data-target="next">Next</button>
-															</p>
 														</div>
 													</div>
 												</div>

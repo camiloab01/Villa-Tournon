@@ -57,15 +57,14 @@
 					<div class="col-md-12">
 						<h4 class="the-title text-center font-300"> {{Reserve}}</h4>
 						<div class="booking-form">
-							<form action="booking.html" method="GET" enctype="text/plain"  class="row no-padding" name="bookingHome">
+							<form action="#/booking" method="GET" enctype="text/plain"  class="row no-padding" name="bookingHome">
 								<div class="col-md-2 col-sm-12">
-									<i class="icon-201"></i>
-									<input type="text" readonly class="room-select" placeholder={{Room}} name="room" value="Deluxe" required>
-									<ul class="clean-list font-small" required>
-										<li>Deluxe</li>
-										<li>Superior</li>
-										<li>Standard</li>
-									</ul>
+									<select class="cs-select cs-skin-elastic" name="room">
+										<option disabled>Rooms</option>
+										<option selected>Superior</option>
+										<option>Deluxe</option>
+										<option>Standard</option>
+									</select>
 								</div>
 								<div class="col-md-2 col-sm-6">
 									<i class="icon-233"></i>
