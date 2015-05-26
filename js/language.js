@@ -40,7 +40,12 @@
 	      $routeProvider.when('/ebony', {
 	        templateUrl: '/ebony_&_ivory.html',
 	      });
-
+	      $routeProvider.when('/gallery', {
+	        templateUrl: '/gallery.html',
+	      });
+	      $routeProvider.when('/gallery_art', {
+	        templateUrl: '/gallery_art.html',
+	      });
 	      $routeProvider.otherwise({
 	        redirectTo: '/home.html',
 	      });
@@ -113,6 +118,8 @@
 			 $scope.Home ="Inicio";
 			 $scope.Booking = "Reserve";
 			 $scope.About = "Nosotros";
+			 $scope.PhotoGallery = "Galería de fotos";
+			 $scope.ArtGallery = "Galería de arte";
 			 $scope.ReadMore = "Leer más";
 			 $scope.Contact="Contacto";
 			 $scope.Reserve="Reserve ahora";
@@ -232,6 +239,8 @@
 		 	 $scope.Home ="Home";
 		 	 $scope.Booking = "Booking";
 		 	 $scope.About = "About";
+		 	 $scope.PhotoGallery = "Photo Gallery";
+		 	 $scope.ArtGallery = "Art gallery";
 		 	 $scope.Contact="Contact";
 			 $scope.ReadMore = "Read more";
 			 $scope.Reserve="Make a Reservation";
@@ -368,6 +377,8 @@
 				 $scope.ReadMore = "Leer más";
 				 $scope.Booking = "Reserve";
 				 $scope.About = "Nosotros";
+				 $scope.PhotoGallery = "Galería de fotos";
+				 $scope.ArtGallery = "Galería de arte";
 				 $scope.Contact="Contacto";
 				 $scope.Reserve="Reserve ahora";
 				 $scope.Room="Habitación";
@@ -487,6 +498,8 @@
 				 $scope.ReadMore = "Read more";
 				 $scope.Booking = "Booking";
 				 $scope.About = "About";
+				 $scope.PhotoGallery = "Photo gallery";
+				 $scope.ArtGallery = "Art gallery";
 				 $scope.Contact="Contact";
 				 $scope.Reserve="Make a Reservation";
 				 $scope.Room="Room";

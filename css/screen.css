@@ -2005,7 +2005,6 @@ body .no-shadow {
 .main-nav > ul > li {
   float: left;
   text-transform: uppercase;
-  margin-left: 0.5em;
 }
 
 .main-nav > ul > li a {
@@ -2017,8 +2016,9 @@ body .no-shadow {
 }
 
 .main-nav > ul > li > a {
+  font-size: .9em;
   display: inline-block;
-  padding: 0.75em 1.15em;
+  padding: 0.75em .6em;
   font-weight: 300;
 }
 
