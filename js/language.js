@@ -25,6 +25,10 @@
 			 	loadLanguage("En");
 			 }
 		 }
+		 else
+		 {
+		 	loadLanguage("En");
+		 }
 
 		 $scope.languageChanged = function() {
 

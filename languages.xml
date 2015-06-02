@@ -208,4 +208,40 @@
         <En>A space for two where the sensorialty of the restaurant will seduces you to a perfect harmony.</En>
         <Es>Un espacio para los dos donde la sensorialidad del restaurante le seduce en una perfecta armonía.</Es>
     </translation>
+    <translation id="ArtGalleyDesc1Lng">
+        <En>Hotel Villa Tournon serves as an art gallery. In the areas of the hotel you will be encountering with an exposition of the three main historical traditional fine arts: architecture, sculpture and painting most of all.</En>
+        <Es>Hotel Villa Tournon es una galería de arte. En las diferentes áreas del hotel se aprecia una exposición de tres de las bellas artes históricamente tradicionales: la arquitectura, la escultura y la pintura. Siendo esta la más fecunda en el hotel.</Es>
+    </translation>
+    <translation id="ArtGalleyDesc2Lng">
+        <En>A specify appreciation of architecture art can be seen in the sky craft, in the areas of the lobby, restaurant and bar.</En>
+        <Es>Una específica apreciación de arte arquitectónico es el artesanado que se puede observar en los cielos de las áreas del lobby, restaurante y bar.</Es>
+    </translation>
+    <translation id="ArtGalleyDesc3Lng">
+        <En>Two sculpture pieces; one, a synonym of the lower body up to the waist of a woman, with a metamorphosis extension upward, in proportion in size to the related lower body. This piece was sculptured from a Guanacaste wood which is the national tree of Costa Rica; another is a sensory contemplation that can be held observing an African piece made out of Ebony wood. This work represents an African queen tenderly embracing two small children standing at her side. Rooms, passages and other areas are submitted to dozen of painting that make Hotel Villa Tournon a perfect gallery. This beauty is a key component to the experience added to your stay away from home</En>
+        <Es>Así mismo, se pueden subrayar dos piezas de escultura: uno, un sinónimo de la parte inferior de una mujer desde la cintura hacia abajo, con una extensión de metamorfosis hacia arriba, en proporción al tamaño de la parte inferior del cuerpo relacionado. Esta pieza fue esculpida en madera de Guanacaste, que es el árbol nacional de Costa Rica; la otra obra es una pieza africana, tallada en madera de ébano. Este trabajo representa a una reina africana abrazando tiernamente dos niños pequeños de pie a su lado. Las habitaciones, pasillos y otras áreas están sometidas a docenas de pinturas que hacen del Hotel Villa Tournon una extraordinaria galería. Esta belleza es un componente clave para la experiencia añadida a su estancia fuera de casa.</Es>
+    </translation>
+    <translation id="ArtGalleyDesc4Lng">
+        <En>We welcome you to enjoy the variety of these visual arts.</En>
+        <Es>Le invitamos a disfrutar de la variedad de estas artes visuales.</Es>
+    </translation>
+    <translation id="ContactUsLng">
+        <En>Contact Us</En>
+        <Es>Contáctenos</Es>
+    </translation>
+    <translation id="DropLineLng">
+        <En>Drop us a line</En>
+        <Es>Escríbanos con confianza, estamos para servir</Es>
+    </translation>
+    <translation id="WriteLng">
+        <En>Write</En>
+        <Es>Escriba</Es>
+    </translation>
+    <translation id="checkInCheckOutEspLng">
+        <En>Check-In: 15:00 - Check-Out: 12:00 *</En>
+        <Es>Entrada: 15:00 - Salida: 12:00 *</Es>
+    </translation>
+    <translation id="changeSchedLng">
+        <En>*Late check-out could be possible upon availability</En>
+        <Es>*La salida podría ser más tarde dependiendo de la disponibilidad</Es>
+    </translation>
 </translations>
