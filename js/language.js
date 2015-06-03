@@ -123,7 +123,7 @@
     					var additionalPerson = $scope.NumberAdultsSelected - 2;
     					$scope.RoomPrice = dayPrice = 110 + additionalPerson*20;
     				}
-    				$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer];
+    				//$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer];
     				$scope.AddPeople =["1","2"];
     				break;
     			case "Deluxe":
@@ -134,7 +134,7 @@
     				else if($scope.NumberAdultsSelected==2){
     					$scope.RoomPrice = dayPrice = 160;
     				}
-    				$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
+    			//	$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
     				$scope.AddPeople =["1","2"];
     				break;
     			case "Superior":
@@ -149,7 +149,7 @@
     					var additionalPerson = $scope.NumberAdultsSelected - 2;
     					$scope.RoomPrice = dayPrice = 135 + additionalPerson*25;
     				}
-    				$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
+    				///$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
     				$scope.AddPeople =["1","2","3","4"];
     				break;
     		}
