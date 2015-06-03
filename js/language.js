@@ -65,6 +65,182 @@
 			.setStorageType('sessionStorage')	
     });
 
+    var BookingController = function($scope){ 
+
+    	var room;
+    	var numberDays;
+    	var dayPrice;
+
+    	var url = location.search;
+
+		room = $.query.get('room');
+		var checkIn = $.query.get('checkIn');
+		var checkOut = $.query.get('checkOut');
+		var numberRooms = $.query.get('NumberRooms');
+
+		$scope.NumberChildrenSelected = 0;
+		$scope.NumberAdultsSelected = 1;
+		
+		if(room ===""){
+
+			$scope.RoomSelected = $scope.RoomTittle = room = "Standard";
+			$scope.NumberRoomsSelected = 1;
+		}
+		else{
+
+			$scope.RoomSelected = $scope.RoomTittle = room;
+			$scope.NumberRoomsSelected = numberRooms;
+			$scope.CheckInSelected = checkIn;
+			$scope.CheckOutSelected = checkOut;
+		}
+
+		setRoomOptions();
+		setDaysNumber();
+		updatePricing();
+
+    	$scope.roomChanged = function(){ 
+
+    		room = $scope.RoomSelected;
+    		$scope.RoomTittle = room;
+
+    		setRoomOptions();
+    		updatePricing();
+    	}
+
+    	function setRoomOptions(){
+
+    		switch(room){
+
+    			case "Standard":
+    				$scope.roomPath = "img/home_page/rooms/DSC_2648.jpg";
+    				if($scope.NumberAdultsSelected == 1 || $scope.NumberAdultsSelected == undefined){
+    					$scope.RoomPrice = dayPrice = 95;
+    				}
+    				else if($scope.NumberAdultsSelected==2){
+    					$scope.RoomPrice = dayPrice = 110;
+    				}
+    				else if($scope.NumberAdultsSelected>2){
+    					var additionalPerson = $scope.NumberAdultsSelected - 2;
+    					$scope.RoomPrice = dayPrice = 110 + additionalPerson*20;
+    				}
+    				$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer];
+    				$scope.AddPeople =["1","2"];
+    				break;
+    			case "Deluxe":
+    				$scope.roomPath = "img/home_page/rooms/DSC_2157.jpg";
+    				if($scope.NumberAdultsSelected==1|| $scope.NumberAdultsSelected == undefined){
+    					$scope.RoomPrice = dayPrice = 135;
+    				}
+    				else if($scope.NumberAdultsSelected==2){
+    					$scope.RoomPrice = dayPrice = 160;
+    				}
+    				$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
+    				$scope.AddPeople =["1","2"];
+    				break;
+    			case "Superior":
+    				$scope.roomPath = "img/home_page/rooms/DSC_2369.jpg";
+    				if($scope.NumberAdultsSelected==1|| $scope.NumberAdultsSelected == undefined){
+    					$scope.RoomPrice = dayPrice = 125;
+    				}
+    				else if($scope.NumberAdultsSelected==2){
+    					$scope.RoomPrice = dayPrice = 135;
+    				}
+    				else if($scope.NumberAdultsSelected>2){
+    					var additionalPerson = $scope.NumberAdultsSelected - 2;
+    					$scope.RoomPrice = dayPrice = 135 + additionalPerson*25;
+    				}
+    				$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
+    				$scope.AddPeople =["1","2","3","4"];
+    				break;
+    		}
+
+    	}
+
+    	$scope.roomsNumberChange = function(){
+    		updatePricing();
+
+    	}
+
+    	function updatePricing(){
+    		$scope.GrandTotal = $scope.daysNumber*$scope.RoomPrice*$scope.NumberRoomsSelected;
+    	}
+
+    	$scope.dateChanged = function(){
+
+    		setDaysNumber();
+
+    		updatePricing();
+    	}
+
+    	function setDaysNumber(){
+
+    		checkIn = $scope.CheckInSelected;
+			checkOut = $scope.CheckOutSelected;
+
+    		if(checkIn === "" || checkOut === "" || checkIn === undefined || checkOut === undefined){
+
+    			$scope.daysNumber = 0;
+    		}
+    		else{
+
+	    		var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+
+				var checkInSplit = checkIn.split("-");
+				var firstDate = new Date(checkInSplit[2], checkInSplit[0]-1, checkInSplit[1]);
+				var checkOutSplit = checkOut.split("-");
+				var secondDate = new Date(checkOutSplit[2], checkOutSplit[0]-1, checkOutSplit[1]);
+
+				var numberDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+
+				$scope.daysNumber = numberDays;
+    		}
+    	}
+
+    	$scope.adultsChanged = function(){
+
+    		switch(room){
+
+    			case "Standard":
+    				if($scope.NumberAdultsSelected==1|| $scope.NumberAdultsSelected == undefined){
+    					$scope.RoomPrice = dayPrice = 95;
+    				}
+    				else if($scope.NumberAdultsSelected==2){
+    					$scope.RoomPrice = dayPrice = 110;
+    				}
+    				else if($scope.NumberAdultsSelected>2){
+    					var additionalPerson = $scope.NumberAdultsSelected - 2;
+    					$scope.RoomPrice = dayPrice = 110 + additionalPerson*20;
+    				}
+    				break;
+    			case "Deluxe":
+    				if($scope.NumberAdultsSelected==1|| $scope.NumberAdultsSelected == undefined){
+    					$scope.RoomPrice = dayPrice = 135;
+    				}
+    				else if($scope.NumberAdultsSelected==2){
+    					$scope.RoomPrice = dayPrice = 160;
+    				}
+    				break;
+    			case "Superior":
+    				if($scope.NumberAdultsSelected==1|| $scope.NumberAdultsSelected == undefined){
+    					$scope.RoomPrice = dayPrice = 125;
+    				}
+    				else if($scope.NumberAdultsSelected==2){
+    					$scope.RoomPrice = dayPrice = 135;
+    				}
+    				else if($scope.NumberAdultsSelected>2){
+    					var additionalPerson = $scope.NumberAdultsSelected - 2;
+    					$scope.RoomPrice = dayPrice = 135 + additionalPerson*25;
+    				}
+    				break;    		
+    			}
+
+    		updatePricing();
+    	}
+	
+	}
+
+    app.controller("BookingController", BookingController); 
+
     app.controller("LanguageController", LanguageController); 
 	
 }());
