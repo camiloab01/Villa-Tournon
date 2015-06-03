@@ -276,4 +276,12 @@
         <En>Thanks for your visit; I hope you enjoy our web site</En>
         <Es>Gracias por visitar nuestra página, espero que la disfruten</Es>
     </translation>
+    <translation id="bookinInfoLng">
+        <En>Booking Info</En>
+        <Es>Información de la reserva</Es>
+    </translation>
+    <translation id="personalInfoLng">
+        <En>Personal Info</En>
+        <Es>Información Personal/Es>
+    </translation>
 </translations>
