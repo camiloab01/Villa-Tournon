@@ -191,13 +191,21 @@
 													</ol>
 													<div class="grey booking-form">
 														<div class="col-md-2">
-															<select class="cs-select cs-skin-elastic" id="roomSelected" name="room_selected" ng-change="roomChanged()" 
+															<select id="roomSelected" name="room_selected" ng-change="roomChanged()" 
 															ng-model="RoomSelected">
 																<option disabled selected>Rooms</option>
 																<option>Superior</option>
 																<option>Deluxe</option>
 																<option>Standard</option>
 															</select>
+															
+															<!--<select class="cs-select cs-skin-elastic" id="roomSelected" name="room_selected" ng-change="roomChanged()" 
+															ng-model="RoomSelected">
+																<option disabled selected>Rooms</option>
+																<option>Superior</option>
+																<option>Deluxe</option>
+																<option>Standard</option>
+															</select>-->
 														</div>
 														<div class="col-md-2">
 															<select ng-model = "NumberRoomsSelected" name="number_rooms" ng-change="roomsNumberChange()">
@@ -369,11 +377,6 @@
 	<script src="select/js/classie.js"></script>
 	<script src="select/js/selectFx.js"></script>
 	<script>
-		(function() {
-			[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
-				new SelectFx(el);
-			} );
-		})();
 	</script>
 </body>
 </html>

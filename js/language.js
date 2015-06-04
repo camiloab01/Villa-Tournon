@@ -9,6 +9,10 @@
 	var LanguageController = function($scope, $location, localStorageService){ 
 
 		var spanish;
+
+		var d = new Date();
+		$scope.CurrentYear = d.getFullYear();
+		$scope.LeslieYears = $scope.CurrentYear - 1945;
 		
 		 if(localStorageService.length()>0)
 		 {
