@@ -340,4 +340,28 @@
         <En>Nights X</En>
         <Es>Noches X</Es>
     </translation>
+    <translation id="children10Lng">
+        <En>Children under 10 years using the facilities of parents are free of charge without extras include accommodations and meals</En>
+        <Es>Niños menores a 10 años acompañados de sus padres no pagan la estadía, no incluye extras de alimentación</Es>
+    </translation>
+    <translation id="childrenMaxLng">
+        <En>The max number of children per room is two</En>
+        <Es>El número máximo de niños es dos por habitación</Es>
+    </translation>
+    <translation id="childrenBreakfastLng">
+        <En>The breakfast price for children is $5</En>
+        <Es>El desayuno por niño es de $5</Es>
+    </translation>
+    <translation id="ratesUSDLng">
+        <En>The rates are calculated in USD</En>
+        <Es>Los precios son calculados usando USD</Es>
+    </translation>
+    <translation id="smokeFreeLng">
+        <En>The hotel is smoke free and it is penalized contrary acts</En>
+        <Es>El hotel es libre de humo, actos contrarios serán penalizados</Es>
+    </translation>
+    <translation id="taxIncludedLng">
+        <En>All taxes are included</En>
+        <Es>Todos los impuestos incluídos</Es>
+    </translation>
 </translations>
