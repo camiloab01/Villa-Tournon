@@ -117,8 +117,8 @@
         <Es>Hotel Villa Tournon tiene 80 habitaciones entre Estándar, Superior y De Luxe. Algunas de la habitaciones se destacan por su vista hacia un amplio jardín rodeando la piscina y jacuzzi; además de una hermosa vista de San José especialmente de noche, con sus edificios iluminados, incrustados en una loma como compitiendo entre ellos para superar en altura.</Es>
     </translation>
     <translation id="roomsLng">
-        <En>Rooms:</En>
-        <Es>Habitaciones:</Es>
+        <En>Rooms</En>
+        <Es>Habitaciones</Es>
     </translation>
     <translation id="roomLng">
         <En>Room:</En>
@@ -407,5 +407,17 @@
     <translation id="grandTotalLng">
         <En>Grand Total:</En>
         <Es>Gran Total:</Es>
+    </translation>
+    <translation id="messageLng">
+        <En>Message:</En>
+        <Es>Mensaje:</Es>
+    </translation>
+    <translation id="ContactSendlng">
+        <En>Write</En>
+        <Es>Enviar</Es>
+    </translation>
+    <translation id="ContactMaillng">
+        <En>Email:</En>
+        <Es>Correo Electrónico:</Es>
     </translation>
 </translations>
