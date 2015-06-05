@@ -298,6 +298,21 @@ li.col-sm-5.col-md-6.room-3 {
 }
 
 
+/*booking*/
+.rsvBox {
+  	margin: 0 12px 0 15px;
+}
+.rsvBooking {
+	background-color: #fff;
+	-webkit-appearance: none;
+  	-webkit-border-radius: 0px;
+}
+
+button.gold.button-md.soft-corners.bookNowLng {
+  margin-top: 25px;
+}
+
+
 /*Responsive*/
 
 @media screen and (max-width: 500px) {
@@ -384,3 +399,19 @@ li.col-sm-5.col-md-6.room-3 {
   		width: 277px !important;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

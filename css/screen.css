@@ -2210,6 +2210,7 @@ body .no-shadow {
 .main-nav > ul:hover .current-menu-item:hover > a {
   background: #b19261;
   color: #ffffff;
+  margin: 0 3px 0 3px;
 }
 
 /* Footer
