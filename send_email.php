@@ -21,6 +21,7 @@
 		 Num Adultos: '.$_POST['number_adults_selected'].'<br />
 		 Num Menores: '.$_POST['number_child_selected'].'<br />
 		';
+
 	    require "phpmailer/class.phpmailer.php"; //include phpmailer class
 	      
 	    // Instantiate Class  
@@ -62,26 +63,22 @@
     <!-- Responsive helper -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
     <!-- Fonts-->
     <!-- Custom Fonts -->
     <link href="css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/screen.css">
-    <!--scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- angular js -->
-    <script src="js/jquery.query-object.js"></script>
-    <script src="js/angular.js"></script>
-    <script src="js/angular-local-storage.js"></script>
-    <script src="js/language.js"></script>
+    <!-- Select style -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="select/css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="select/css/cs-skin-elastic.css" />
 </head>
+
 <body ng-app = "home">
     <div  ng-controller="LanguageController" id="home" class="boxed-view">
         <header class="main-header clearfix">
@@ -167,51 +164,62 @@
             <!-- /.nav-bar -->
         </header>
         <!-- /.main-nav -->
+
         <!-- main content -->
         <section class="box">
-			<div ng-controller="BookingController" class="container">
-				<div class="row">
-					<div class="col-md-8">
-						<div class="alert-box gold">
-							<h4 class="text-white"><?php echo '<p>'.$message.'</p>' ?></h4>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<a href="el-hotel.html" class="hotel-button button-md grey text-dark hover-orange" data-target="prev">El Hotel</a>
-					</div>
-				</div>
-				<div class="row">
-				<br/>
-					<div class="col-md-8">
-						<table>
-							<tbody>
-								<tr>
-									<td>Room price: </td>
-									<td class="text-right"><span class="text-orange">$ {{RoomPrice}} / night </span></td>
-								</tr>
-								<tr>
-									<td>Nights: </td>
-									<td class="text-right"><span class="text-orange">{{daysNumber}}</span></td>
-								</tr>
-								<tr>
-									<td>Rooms: </td>
-									<td class="text-right text-orange"><span>{{NumberRoomsSelected}}</span></td>
-								</tr>
-								<tr>
-									<td>Adults: </td>
-									<td class="text-right text-orange"><span>{{NumberAdultsSelected}}</span></td>
-								</tr>
-								<tr>
-									<td class="uppercase font-500 text-orange">Grand-total:</td>
-									<td class="text-right text-orange">$ {{GrandTotal}}</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div> <!-- /.container -->
-		</section> <!-- /.box -->
-		<footer class="main-footer">
+            <div ng-controller="BookingController" class="container">
+                <form name="mailBooking" method="post" action="send_email.php">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-dark-black text-center fancy-heading">
+                                <h1 class="font-700 bookNowLng"></h1>
+                                <hr class="text-dark-black size-30 center-me">
+                                <br>            
+                            </div>
+                        </div>
+                    </div> <!-- /.row -->
+                    <div class="row booking-nav">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-center nav-step">
+                                <span></span>
+                                <h4 class="font-100">Booking</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-center nav-step">
+                                <span></span>
+                                <h4 class="font-100">Personal</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="text-center nav-step" data-target="1">
+                                <span></span>
+                                <h4 class="font-100">Complete</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking-slider">
+                        <ul class="clean-list">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="alert-box gold">
+                                            <h4 class="text-white successLng"></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a href="el-hotel.html" class="hotel-button button-md grey text-dark hover-orange" data-target="prev">El Hotel</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div> <!-- /.container -->
+        </section> <!-- /.box -->
+        <footer class="main-footer">
             <!-- Footer widgets -->
             <div class="big-footer box footer-box dark-less">
                 <div class="container">
@@ -264,11 +272,18 @@
             </div><!-- /.small-footer -->   
         </footer><!-- /.main-footer -->
     </div><!-- /.boxed-view -->
+    <!-- jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/jquery.query-object.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-local-storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/bookingLogic.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/options.js"></script>
 </body>
-<script src="js/common.js"></script>
-<script src="js/bookingLogic.js"></script>
-<script src="js/logic.js"></script>
-<script type="text/javascript" src="js/simplycarousel.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/options.js"></script>
 </html>

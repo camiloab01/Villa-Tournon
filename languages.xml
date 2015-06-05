@@ -364,4 +364,8 @@
         <En>All taxes are included</En>
         <Es>Todos los impuestos incluídos</Es>
     </translation>
+    <translation id="successLng">
+        <En>Your reservation was succefull submited! Soon we will contact you!</En>
+        <Es>Su reservación ha sido enviada exitósamente. Pronto nos comunicaremos con usted.</Es>
+    </translation>
 </translations>

@@ -138,7 +138,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4 col-xs-4">
-							<div class="text-center nav-step" data-target="3">
+							<div class="text-center nav-step">
 								<span></span>
 								<h4 class="font-100">Complete</h4>
 							</div>
@@ -232,8 +232,8 @@
 										<table>
 											<tbody>
 												<tr>
-													<td><span class="roomsLng">:</span> <span>{{NumberRoomsSelected}}</span></td>
-													<td class="text-right"><span>{{daysNumber}}</span> <span class = "nigthXLng"></span> <span class="text-orange">$ <span>{{RoomPrice}}</span> </span></td>
+													<td><span class="roomsLng">:</span> <span name="NumberRooms">{{NumberRoomsSelected}}</span></td>
+													<td class="text-right"><span name="daysNumber">{{daysNumber}}</span> <span class = "nigthXLng"></span> <span class="text-orange">$ <span>{{RoomPrice}}</span> </span></td>
 												</tr>
 												<tr>
 													<td class="uppercase font-500 text-orange">Grand-total:</td>
@@ -257,31 +257,36 @@
 										</ul>	
 									</div>
 									<div class="col-md-8">
-										<ul class="col-md-offset-1">
-											<li>
-												<i class="icon-89 taxIncludedLng"></i>
-												
-											</li>
-											<li>
-												<i class="icon-89 children10Lng"></i>
-											</li>
-											<li>
-												<i class="icon-89 childrenMaxLng"></i>
-											</li>
-											<li>
-												<i class="icon-89 childrenBreakfastLng"></i>
-											</li>
-											<li>
-												<i class="icon-89 ratesUSDLng"></i>
-											</li>
-											<li>
-												<i class="icon-89 smokeFreeLng"></i>
-											</li>
-										</ul>
-										<p class="clearfix">
-											<a href="#" class="button-md gold to-right nav-step" data-target="next">Next</a>
-										</p>
-									</div>
+								          <ul class="col-md-offset-1">
+								           <li>
+								            <i class="icon-89"></i>
+								            <span class="taxIncludedLng"></span>
+								           </li>
+								           <li>
+								            <i class="icon-89"></i>
+								            <span class="children10Lng"></span>
+								           </li>
+								           <li>
+								            <i class="icon-89"></i>
+								            <span class="childrenMaxLng"></span>
+								           </li>
+								           <li>
+								            <i class="icon-89"></i>
+								            <span class="childrenBreakfastLng"></span>
+								           </li>
+								           <li>
+								            <i class="icon-89"></i>
+								            <span class="ratesUSDLng"></span>
+								           </li>
+								           <li>
+								            <i class="icon-89"></i>
+								            <span class="smokeFreeLng"></span>
+								           </li>
+								          </ul>
+								          <p class="clearfix">
+								           <a href="#" class="button-md gold to-right nav-step" data-target="next">Next</a>
+								          </p>
+							         </div>
 								</div>
 							</li>
 							<li>
@@ -290,19 +295,19 @@
 									<div class="col-md-6">							
 											<p>
 												First name
-												<input type="text" name="f_name">
+												<input type="text" name="f_name" required>
 											</p>
 											<p>
 												Last name
-												<input type="text" name="l_name">
+												<input type="text" name="l_name" required>
 											</p>
 											<p>
 												E-mail
-												<input type="email" name="email">
+												<input type="email" name="email" required>
 											</p>
 											<p>
 												Telephone Number
-												<input type="tel" name="tel">
+												<input type="tel" name="tel" required>
 											</p>
 											<p>
 												Notes and special requests
@@ -314,11 +319,11 @@
 											<div class="col-md-12">				
 												<p>
 													Company
-													<input type="text" name="company_name">
+													<input type="text" name="company_name" required>
 												</p>
 												<p>
 													Country
-													<input type="text" name="country_name">
+													<input type="text" name="country_name" required>
 												</p>
 											</div>
 										</div>
@@ -329,40 +334,10 @@
 										<a href="#" class="button-md gold nav-step" data-target="prev">Back</a>
 									</div>
 									<div class="col-md-6 col-xs-6">
-										<p class="text-right">
-											<a href="#" class="button-md gold nav-step" data-target="next">Submit Reservation</a>
-										</p>
+										<button type="submit" name = "submit" class="button-md uppercase to-right gold text-white soft-corners long-button">Submit Reservation</button>
 									</div>
 								</div>
 								</form>
-							</li>
-							<li>
-								<div class="row">
-									<div class="col-md-4">
-										<table>
-											<tbody>
-												<tr>
-													<td>Room: <span>1</span></td>
-													<td class="text-right">4 night x <span class="text-orange">$ 95</span></td>
-												</tr>
-												<tr>
-													<td class="uppercase font-500 text-orange">Grand-total:</td>
-													<td class="text-right text-orange">$ 480</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-									<div class="col-md-8">
-										<div class="alert-box gold">
-											<h4 class="text-white">Your reservation was succefull submited!</h4>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<a href="el-hotel.html" class="hotel-button button-md grey text-dark hover-orange" data-target="prev">El Hotel</a>
-									</div>
-								</div>
 							</li>
 						</ul>
 					</div>
