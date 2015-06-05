@@ -420,4 +420,100 @@
         <En>Email:</En>
         <Es>Correo Electrónico:</Es>
     </translation>
+    <translation id="standardTitleLng">
+        <En>Standard Room</En>
+        <Es>Habitación Estandar</Es>
+    </translation>
+    <translation id="makeReservationLng">
+        <En>Make a Reservation</En>
+        <Es>Reserve</Es>
+    </translation>
+    <translation id="descriptionLng">
+        <En>Description</En>
+        <Es>Descripción</Es>
+    </translation>
+    <translation id="standardDescription1Lng">
+        <En>The rooms have a fine wood park flooring, they were the first hotel rooms when it was permitted the use and marketing of this protected wood currently by law.</En>
+        <Es>Todas las habitaciones son  de pisos de fina madera parqué, fueron las primeras habitaciones del hotel cuando era permitido el uso y comercialización de esta protegida madera en la actualidad por ley.</Es>
+    </translation>
+    <translation id="standardDescription2Lng">
+        <En>This room have an area of 24 m2 and 33m2, they have different locations in the building, some overlook an internal garden to a fountain, and, also others looking towards an external garden surrounding the pool, and a view towards the city.</En>
+        <Es>Tienen de área 24 y  33 m2    disponen de diferentes ubicaciones en la edificación, vista a jardines internos a una fuente y externa hacia el jardín rodeando la piscina, además vista hacia la ciudad.</Es>
+    </translation>
+    <translation id="standardDescription3Lng">
+        <En>They are furnished with a double bed or two single beds, bathroom with shower and tub, an area with chairs and table, TV with and without flat screen, closet, toilet and have access to safety deposit box in the reception area; none misses the attractive paintings which is a pride of the hotel.</En>
+        <Es>Están amuebladas con una cama matrimonial o dos camas sencillas, baño con ducha y tina, un área con sillas y mesa, televisor con y sin pantalla plana, closet, tocador y tienen acceso a caja de seguridad en el área de recepción, sin faltar en la decoración de atractivas pinturas que son el orgullo del hotel.</Es>
+    </translation>
+    <translation id="overlookGardenLng">
+        <En>Overlook internal and external garden</En>
+        <Es>Vista a jardines internos y externos</Es>
+    </translation>
+    <translation id="surroundingPoolLng">
+        <En>Surrounding the pool</En>
+        <Es>Rodeando la piscina</Es>
+    </translation>
+    <translation id="doubleSingleLng">
+        <En>Double bed or two single beds</En>
+        <Es>Cama doble o dos individuales</Es>
+    </translation>
+    <translation id="chairsTableLng">
+        <En>Chairs and table area</En>
+        <Es>Mesa y sillas</Es>
+    </translation>
+    <translation id="safetyBoxReceptionLng">
+        <En>Safety Box in the reception</En>
+        <Es>Caja de seguridad en recepción</Es>
+    </translation>
+    <translation id="relatedRommsLng">
+        <En>Related Rooms</En>
+        <Es>Habitaciones Similares</Es>
+    </translation>
+    <translation id="superiorLng">
+        <En>They have a spacious bathroom with shower and tub and its respective amenities, an area with living room, some with King size bed and other with two double beds.</En>
+        <Es>Disponen de amplio baño con ducha y tina y sus respectivos amenidades, un área con sala de estar, algunas con cama King  y otras con dos camas matrimoniales.</Es>
+    </translation>
+    <translation id="deluxeLng">
+        <En>Are distinguished by its exquisite location, overlooking a fountain, surrounded by a garden in a courtyard which ensures peace of mind.</En>
+        <Es>Se distinguen por su exquisita ubicación, vista hacia una fuente, rodeado por un jardín en un patio interno que garantiza tranquilidad.</Es>
+    </translation>
+    <translation id="standardLng">
+        <En>The rooms have a fine wood park flooring, they were the first hotel rooms when it was permitted the use and marketing of this protected wood currently by law. </En>
+        <Es>Todas las habitaciones son  de pisos de fina madera parqué, fueron las primeras habitaciones del hotel cuando era permitido el uso y comercialización de esta protegida madera en la actualidad por ley.</Es>
+    </translation>
+    <translation id="deluxeTitleLng">
+        <En>Deluxe Room</En>
+        <Es>Habitación Deluxe</Es>
+    </translation>
+    <translation id="superiorTitleLng">
+        <En>Superior Room</En>
+        <Es>Habitación Superior</Es>
+    </translation>
+    <translation id="deluxeDescription1Lng">
+        <En>Are distinguished by its exquisite location, overlooking a fountain, surrounded by a garden in a courtyard which ensures peace of mind. These rooms have an area between 30.35 and 39.05 m2, decorated with colorful pictures that make one harmonious with the king-sized bed and comfortable furniture in order to give life to a beautiful and pleasant stay; also has coffee maker, mini bar, TV with flat screen, hair dryer and phone.</En>
+        <Es>Se distinguen por su exquisita ubicación, vista hacia una fuente, rodeado por un jardín en un patio interno que garantiza tranquilidad. Estas habitaciones tienen un área entre 30.35  y 39.05  m2,  decoradas con vistosos cuadros que hacen una armoniosa conjunto con la cama King y los confortables muebles a fin de darle vida a una estancia hermosa y agradable; así mismo cuenta con coffe maker, mini bar, televisor con pantalla plana, secadora de cabello y teléfono.</Es>
+    </translation>
+    <translation id="deluxeDescription2Lng">
+        <En>The bathrooms are equipped with shower and bathtub, some with bidet. The room has a privileged floor wood Park.</En>
+        <Es>Los baños están equipados con ducha y tina, algunos además con bidé.  La habitación tiene un privilegiado piso de madera parqué.</Es>
+    </translation>
+    <translation id="superiorDescription1Lng">
+        <En>There are rooms with an area of 33m2 they have a spacious bathroom with shower and tub and its respective amenities, an area with living room, some with King size bed and other with two double beds, telephone, flat screen TV with over 50 channels to choose from, wide closet, mini refrigerator, safe deposit boxes, iron and table ironing, coffee maker and hair dryer, rooms are carpeted.</En>
+        <Es>Son habitaciones con un área de   33 m2 disponen de amplio baño con ducha y tina y sus respectivos amenidades, un área con sala de estar, algunas con cama King  y otras con dos camas matrimoniales, teléfono , televisor con pantalla plana con más de 50 canales a escoger, amplio closet, mini refrigeradora, cajas de seguridad, plancha y mesa de aplanchado,  coffe maker y secadora de pelo, son habitaciones alfombradas.</Es>
+    </translation>
+    <translation id="superiorDescription2Lng">
+        <En>The paintings selected for these rooms allowed to appreciate them.</En>
+        <Es>Las pinturas escogidas para estas habitaciones admiten apreciarlas.</Es>
+    </translation>
+    <translation id="surroundedGardenLng">
+        <En>Surrounded by Gardens</En>
+        <Es>Rodeada de jardines</Es>
+    </translation>
+    <translation id="phoneLng">
+        <En>Phone</En>
+        <Es>Teléfono</Es>
+    </translation>
+    <translation id="kingBedLng">
+        <En>King bed sized</En>
+        <Es>Cama King-sized"</Es>
+    </translation>
 </translations>
