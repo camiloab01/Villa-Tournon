@@ -324,4 +324,16 @@
         <En>Personal Info</En>
         <Es>Información Personal</Es>
     </translation>
+    <translation id="personLng">
+        <En>Person</En>
+        <Es>Persona</Es>
+    </translation>
+    <translation id="personsLng">
+        <En>Persons</En>
+        <Es>Personas</Es>
+    </translation>
+    <translation id="addPersonLng">
+        <En>Per additional person</En>
+        <Es>Por persona adicional</Es>
+    </translation>
 </translations>

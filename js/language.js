@@ -112,6 +112,8 @@
     		switch(room){
 
     			case "Standard":
+                    $scope.regPrice = 95;
+                    $scope.twoPersonPrice = 110;
     				$scope.roomPath = "img/home_page/rooms/DSC_2648.jpg";
     				if($scope.NumberAdultsSelected == 1 || $scope.NumberAdultsSelected == undefined){
     					$scope.RoomPrice = dayPrice = 95;
@@ -127,6 +129,8 @@
     				$scope.AddPeople =["1","2"];
     				break;
     			case "Deluxe":
+                    $scope.regPrice = 135;
+                    $scope.twoPersonPrice = 160;
     				$scope.roomPath = "img/home_page/rooms/DSC_2157.jpg";
     				if($scope.NumberAdultsSelected==1|| $scope.NumberAdultsSelected == undefined){
     					$scope.RoomPrice = dayPrice = 135;
@@ -138,6 +142,8 @@
     				$scope.AddPeople =["1","2"];
     				break;
     			case "Superior":
+                    $scope.regPrice = 125;
+                    $scope.twoPersonPrice = 135;
     				$scope.roomPath = "img/home_page/rooms/DSC_2369.jpg";
     				if($scope.NumberAdultsSelected==1|| $scope.NumberAdultsSelected == undefined){
     					$scope.RoomPrice = dayPrice = 125;
