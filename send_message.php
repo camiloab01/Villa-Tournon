@@ -1,3 +1,45 @@
+<?php
+	
+	if(isset($_POST['submit'])) 
+	{
+
+		$message=
+		'Nuevo mensaje:<br />
+		 Nombre:	'.$_POST['name'].'<br />
+		 Email:		'.$_POST['email'].'<br />
+		 Tel:		'.$_POST['tel'].'<br />
+		 Mensaje:		'.$_POST['mess'].'<br />
+		';
+	    require "phpmailer/class.phpmailer.php"; //include phpmailer class
+	      
+	    // Instantiate Class  
+	    $mail = new PHPMailer();  
+	      
+	    // Set up SMTP  
+	    $mail->IsSMTP();                // Sets up a SMTP connection  
+	    $mail->SMTPAuth = true;         // Connection with the SMTP does require authorization    
+	    $mail->SMTPSecure = "ssl";      // Connect using a TLS connection  
+	    $mail->Host = "smtp.gmail.com";  //Gmail SMTP server address
+	    $mail->Port = 465;  //Gmail SMTP port
+	    $mail->Encoding = '7bit';
+	    
+	    // Authentication  
+	    $mail->Username   = "camiloab01@gmail.com"; // Your full Gmail address
+	    $mail->Password   = "CamiMovil1030"; // Your Gmail password
+	      
+	    // Compose
+	    $mail->SetFrom($_POST['email'], $_POST['name']);
+	    $mail->AddReplyTo($_POST['email'], $_POST['name']);
+	    $mail->Subject = "Nuevo mensaje";      // Subject (which isn't required)  
+	    $mail->MsgHTML($message);
+	 
+	    // Send To  
+	    $mail->AddAddress("camiloab_01@hotmail.com", "Camilo A."); // Where to send it - Recipient
+	    $result = $mail->Send();		// Send!  
+		$msj = $result ? 'Successfully Sent! Soon we will contact you!' : 'Sending Failed!';      
+		unset($mail);
+	}
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -116,87 +158,17 @@
         <!-- /.main-nav -->
         <!-- main content -->
         <section class="box">
-			<div class="container">
+			<div ng-controller="BookingController" class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<div class="text-dark-black text-center fancy-heading">
-							<h1 class="font-700 ContactUsLng"></h1>
-							<hr class="text-dark-black size-30 center-me">
-							<p class="DropLineLng"></p>
-							<br>			
+					<div class="col-md-8">
+						<div class="alert-box gold">
+							<h4 class="text-white"><?php echo '<p>'.$msj.'</p>' ?></h4>
 						</div>
 					</div>
-				</div> <!-- /.row -->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="grey contact-data">
-							<ul class="row clean-list">
-								<li class="col-md-4">
-									<div class="center-me">
-										<i class="fa fa-paper-plane fa-2x"></i>
-										<span>Apartado 6606 - 1000 San José</span>
-										<span>Costa Rica</span>
-									</div>
-								</li>
-								<li class="col-md-4">
-									<div class="center-me">
-										<i class="fa fa-phone fa-2x"></i>
-										<span>(506) 2233 66 22</span>
-										<br>
-									</div>
-								</li>
-								<li class="col-md-4">
-									<div class="center-me">
-										<i class="fa fa-envelope fa-2x"></i>
-										<span>hvillas@racsa.co.cr</span>
-										<br>
-									</div>
-								</li>
-							</ul>
-						</div>
+					<div class="col-md-4">
+						<a href="el-hotel.html" class="hotel-button button-md grey text-dark hover-orange" data-target="prev">El Hotel</a>
 					</div>
-					<div class="row">
-						<div class="col-md-12 price-row">
-								<ul class="row clean-list">
-									<li class="col-sm-5 col-md-6">
-										<div class="rooms-footer clearfix">
-											<span class="to-left align-button pricesFromLng">: 
-											</span><b class="to-left align-button text-aquablue font-13x font-300">$ 95 - $ 135</b>
-											<a href="booking.html" class="button-sm to-right grey text-black hover-orange soft-corners bookNowLng"></a>
-										</div>
-									</li>
-									<li class="col-sm-5 col-md-6">
-										<div class="rooms-footer clearfix text-center">
-											<span class="center-block align-button checkInCheckOutEspLng"></span>
-										</div>
-									</li>
-								</ul>
-						</div>
-					</div> <!-- /.row -->
-					<div class="col-md-5">
-						<form action="send_message.php" method="post" class="contact-form row">
-							<p class="col-md-12">
-								<input type="text" name="name" placeholder="Name" required>
-							</p>
-							<p class="col-md-12">
-								<input type="email" name="email" placeholder="Email" required>
-							</p>
-							<p class="col-md-12">
-								<input type="text" name="tel" placeholder="Phone" required>
-							</p>
-							<p class="col-md-12">
-								<textarea name="mess" placeholder="Message" required></textarea>
-							</p>
-							<p class="col-md-12">
-								<button type="submit" name = "submit" class="button-md uppercase to-right gold text-white soft-corners long-button">Write<i class="icon-274"></i></button>
-							</p>
-						</form>
-					</div>
-					<div class="col-md-7">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.953307480555!2d-84.07681610403132!3d9.941727749741457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e49e6f7417d5%3A0x1fd7c50b479ff14a!2sVilla+Tournon!5e0!3m2!1ses!2scr!4v1426562050909" width="600" height="450" frameborder="0" style="border:0"></iframe>
-						<p class="changeSchedLng"></p>
-					</div>
-				</div> <!-- /.row -->
+				</div>
 			</div> <!-- /.container -->
 		</section> <!-- /.box -->
 		<footer class="main-footer">
