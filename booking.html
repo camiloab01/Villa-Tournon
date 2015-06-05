@@ -167,7 +167,7 @@
 													<div class="grey booking-form">
 														<div class="row">
 															<div class="col-md-2">
-																<span>Room:</span>
+																<span class="roomLng"></span>
 																<select class="rsvBooking" id="roomSelected" name="room_selected" ng-change="roomChanged()" 
 																ng-model="RoomSelected">
 																	<option>Superior</option>
@@ -176,7 +176,7 @@
 																</select>
 															</div>
 															<div class="col-md-2">
-																<span>Rooms:</span>
+																<span class="roomsLng"></span>
 																<select class="rsvBooking" ng-model = "NumberRoomsSelected" name="number_rooms" ng-change="roomsNumberChange()">
 																	<option selected>1</option>
 																	<option>2</option>
@@ -186,7 +186,7 @@
 																</select>
 															</div>
 															<div class="col-md-2">
-																<span>Adults:</span>
+																<span class="adultsLng"></span>
 																<select class="rsvBooking" ng-model = "NumberAdultsSelected"
 																ng-change="adultsChanged()" name="number_adults_selected">
 																	<option>1</option>
@@ -196,7 +196,7 @@
 																</select>
 															</div>
 															<div class="col-md-2">
-																<span>Children:</span>
+																<span class="childrenLng"></span>
 																<select class="rsvBooking" ng-model = "NumberChildrenSelected" name="number_child_selected">
 																	<option>0</option>
 																	<option>1</option>
@@ -236,7 +236,7 @@
 													<td class="text-right"><span name="daysNumber">{{daysNumber}}</span> <span class = "nigthXLng"></span> <span class="text-orange">$ <span>{{RoomPrice}}</span> </span></td>
 												</tr>
 												<tr>
-													<td class="uppercase font-500 text-orange">Grand-total:</td>
+													<td class="uppercase font-500 text-orange grandTotalLng"></td>
 													<td class="text-right text-orange">$ <span>{{GrandTotal}}</span> </td>
 												</tr>
 											</tbody>
@@ -294,11 +294,11 @@
 									<form action="#">
 									<div class="col-md-6">							
 											<p>
-												First name
+												<span class="firstNameLng"></span>
 												<input type="text" name="f_name" required>
 											</p>
 											<p>
-												Last name
+												<span class="lastNameLng"></span>
 												<input type="text" name="l_name" required>
 											</p>
 											<p>
@@ -306,11 +306,11 @@
 												<input type="email" name="email" required>
 											</p>
 											<p>
-												Telephone Number
+												<span class="telNumberLng"></span>
 												<input type="tel" name="tel" required>
 											</p>
 											<p>
-												Notes and special requests
+												<span class="notesLng"></span>
 												<textarea name="notices" cols="30" rows="10"></textarea>
 											</p>
 									</div>
@@ -318,11 +318,11 @@
 										<div class="row">
 											<div class="col-md-12">				
 												<p>
-													Company
+													<span class="companyLng"></span>
 													<input type="text" name="company_name" required>
 												</p>
 												<p>
-													Country
+													<span class="countryLng"></span>
 													<input type="text" name="country_name" required>
 												</p>
 											</div>

@@ -117,8 +117,20 @@
         <Es>Hotel Villa Tournon tiene 80 habitaciones entre Estándar, Superior y De Luxe. Algunas de la habitaciones se destacan por su vista hacia un amplio jardín rodeando la piscina y jacuzzi; además de una hermosa vista de San José especialmente de noche, con sus edificios iluminados, incrustados en una loma como compitiendo entre ellos para superar en altura.</Es>
     </translation>
     <translation id="roomsLng">
-        <En>Rooms</En>
-        <Es>Habitaciones</Es>
+        <En>Rooms:</En>
+        <Es>Habitaciones:</Es>
+    </translation>
+    <translation id="roomLng">
+        <En>Room:</En>
+        <Es>Habitación:</Es>
+    </translation>
+    <translation id="adultsLng">
+        <En>Adults:</En>
+        <Es>Adultos:</Es>
+    </translation>
+    <translation id="childrenLng">
+        <En>Childen:</En>
+        <Es>Niños:</Es>
     </translation>
     <translation id="standardLng">
         <En>The rooms have a fine wood park flooring, they were the first hotel rooms when it was permitted the use and marketing of this protected wood currently by law.</En>
@@ -367,5 +379,33 @@
     <translation id="successLng">
         <En>Your reservation was succefull submited! Soon we will contact you!</En>
         <Es>Su reservación ha sido enviada exitósamente. Pronto nos comunicaremos con usted.</Es>
+    </translation>
+    <translation id="firstNameLng">
+        <En>First Name:</En>
+        <Es>Nombre:</Es>
+    </translation>
+    <translation id="lastNameLng">
+        <En>Last Name:</En>
+        <Es>Apellido:</Es>
+    </translation>
+    <translation id="telNumberLng">
+        <En>Telephone Number:</En>
+        <Es>Número de Teléfono:</Es>
+    </translation>
+    <translation id="notesLng">
+        <En>Notes:</En>
+        <Es>Notas:</Es>
+    </translation>
+    <translation id="companyLng">
+        <En>Company:</En>
+        <Es>Empresa:</Es>
+    </translation>
+    <translation id="countryLng">
+        <En>Country:</En>
+        <Es>País:</Es>
+    </translation>
+    <translation id="grandTotalLng">
+        <En>Grand Total:</En>
+        <Es>Gran Total:</Es>
     </translation>
 </translations>
