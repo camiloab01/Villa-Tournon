@@ -514,6 +514,30 @@
     </translation>
     <translation id="kingBedLng">
         <En>King bed sized</En>
-        <Es>Cama King-sized"</Es>
+        <Es>Cama King-sized</Es>
+    </translation>
+    <translation id="safetyBoxLng">
+        <En>Safety Box</En>
+        <Es>Caja de Seguridad</Es>
+    </translation>
+    <translation id="livingRoomLng">
+        <En>Living Room</En>
+        <Es>Sala</Es>
+    </translation>
+    <translation id="kingBedTwoDoubleLng">
+        <En>King bed sized or two doubles</En>
+        <Es>Cama King o dos Camas dobles</Es>
+    </translation>
+    <translation id="miniRefriLng">
+        <En>Mini Fridge</En>
+        <Es>Mini refrigerador</Es>
+    </translation>
+    <translation id="ironTableLng">
+        <En>Ironing Table</En>
+        <Es>Mesa para planchar</Es>
+    </translation>
+    <translation id="hairDryerLng">
+        <En>Hair Dryer</En>
+        <Es>Secador de cabello</Es>
     </translation>
 </translations>

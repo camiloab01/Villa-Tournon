@@ -119,7 +119,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 class="text-center text-dark-blue">{{SuperiorTittle}}</h1>
+						<h1 class="text-center text-dark-blue superiorTitleLng"></h1>
 					</div>
 					<div class="col-md-12">
 						<div class="preview-room">
@@ -178,34 +178,37 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h4 class="the-title text-center font-300">{{Reserve}}</h4>
+						<h4 class="the-title text-center font-300 makeReservationLng"></h4>
 						<div class="booking-form">
 							<form action="booking.html" method="GET" enctype="text/plain"  class="row no-padding" name="bookingHome">
-								<div class="col-md-2 col-sm-12">
-									<i class="icon-201"></i>
-									<input type="text" readonly class="room-select" placeholder={{Room}} name="room" value="Deluxe" required>
-									<ul class="clean-list font-small" required>
-										<li>Deluxe</li>
-										<li>Superior</li>
-										<li>Standard</li>
-									</ul>
+                                <div class="col-md-2 col-sm-12">
+                                    <span class="text-white SpanRoomlng">Room:</span>
+                                    <i class="icon-201"></i>
+                                    <input type="text" readonly class="room-select" placeholder="Room"name="room" value="Deluxe" required>
+                                    <ul class="clean-list font-small" required>
+                                        <li>Deluxe</li>
+                                        <li>Superior</li>
+                                        <li>Standard</li>
+                                    </ul>
 
-								</div>
-								<div class="col-md-2 col-sm-6">
-									<i class="icon-233"></i>
-									<input type="text" id="check-in" placeholder="Check in" name="checkIn" required>
-								</div>
-								<div class="col-md-2 col-sm-6">
-									<i class="icon-233"></i>
-									<input type="text" id="check-out" placeholder="Check out" name="checkOut" required>
-								</div>
-								<div class="col-md-4 col-sm-12">
-									<input type="number" class="dark text-white" placeholder={{NumberRooms}} name="NumberRooms" required>
-								</div>
-								<div class="col-md-2 col-sm-12 text-right">
-									<button type="submit" class="gold button-md soft-corners" ng-disabled="bookingHome.$invalid">Book Now</button>
-								</div>
-							</form>
+                                </div>
+                                <div class="col-md-2 col-sm-6">
+                                    <span class="text-white SpanCheckInlng"><i class="icon-233"></i> Check In:</span>
+                                    
+                                    <input type="text" id="check-in" name="checkIn" required>
+                                </div>
+                                <div class="col-md-2 col-sm-6">
+                                    <span class="text-white SpanCheckOutlng"><i class="icon-233"></i> Check Out:</span>
+                                    <input type="text" id="check-out" name="checkOut" required>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <span class="text-white NumberRoomslng">Number of Rooms:</span>
+                                    <input type="number" class="dark text-white" name="NumberRooms" required>
+                                </div>
+                                <div class="col-md-2 col-sm-12 text-right">
+                                    <button type="submit" class="gold button-md soft-corners bookNowLng" ng-disabled="bookingHome.$invalid"></button>
+                                </div>
+                            </form>
 						</div>
 					</div>
 				</div>
@@ -216,7 +219,7 @@
 			<div class="container">
 				<div class="row">
 						<div class="text-dark-blue text-center fancy-heading">
-							<h1 class="font-700">{{Description}}</h1>
+							<h1 class="font-700 descriptionLng"></h1>
 							<hr class="text-dark-blue">		
 						</div>
 						<p class="center-me">
@@ -224,8 +227,8 @@
 						<span> USD /per day</span>
 						</p>
 						<div class="col-md-8">
-							<p>{{SuperiorDescription1}}</p>
-							<p>{{SuperiorDescription2}}</p>
+							<p class="superiorDescription1Lng"></p>
+							<p class="superiorDescription2Lng"></p>
 						</div>
 						<div class="col-md-4">
 							<ul class="clean-list text-dark-blue iconic-list col-md-offset-1">
@@ -247,31 +250,31 @@
 								</li>
 								<li>
 									<i class="icon-124"></i>
-									{{SafetyBox}}
+									<span class="safetyBoxLng"></span>
 								</li>
 								<li>
 									<i class="icon-124"></i>
-									{{Phone}}
+									<span class="phoneLng"></span>
 								</li>
 								<li>
 									<i class="icon-124"></i>
-									{{LivingRoom}}
+									<span class="livingRoomLng"></span>
 								</li>
 								<li>
 									<i class="icon-124"></i>
-									{{KingBedTwoDouble}}
+									<span class="kingBedTwoDoubleLng"></span>
 								</li>
 								<li>
 									<i class="icon-124"></i>
-									{{MiniRefri}}
+									<span class="miniRefriLng"></span>
 								</li>
 								<li>
 									<i class="icon-124"></i>
-									{{IronTable}}
+									<span class="ironTableLng"></span>
 								</li>
 								<li>
 									<i class="icon-124"></i>
-									{{HairDryer}}
+									<span class="hairDryerLng"></span>
 								</li>
 							</ul>	
 						</div>	
@@ -283,7 +286,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="text-dark-blue text-center fancy-heading">
-							<h1 class="font-700">{{RelatedRooms}}</h1>
+							<h1 class="font-700 relatedRommsLng"></h1>
 							<hr class="text-dark-blue size-30 center-me">
 							<br>			
 						</div>
@@ -292,17 +295,16 @@
 				<ul class="clean-list rooms-items row">
 					<li class="col-xs-6">
 						<div class="text-center">
-							<h3 class="text-dark-black"><a href="#/room-preview-standard" class="text-dark-black hover-text-aquablue">Standard</a></h3>
+							<h3 class="text-dark-black"><a href="room-preview-standard.html" class="text-dark-black hover-text-aquablue">Standard</a></h3>
 							<figure>
-								<a href="#/room-preview-standard"><img src="img/home_page/rooms/DSC_2648.jpg" alt="Standard Room"></a>
+								<a href="room-preview-standard.html"><img src="img/home_page/rooms/DSC_2648.jpg" alt="Standard Room"></a>
 							</figure>
 							<div class="rooms-description room-prev-descrip">
-								<p>
-									{{Standard}}
+								<p class="standardLng">
 								</p>
 								<div class="rooms-footer clearfix">
 									<span class="to-left align-button">Price: <b class="text-aquablue font-13x font-300">$95</b>USD</span>
-									<a href="#/room-preview-standard" class="button-sm to-right grey text-black hover-orange soft-corners">Book now</a>
+									<a href="room-preview-standard.html" class="button-sm to-right grey text-black hover-orange soft-corners">Book now</a>
 								</div>
 							</div>
 						</div>
@@ -310,17 +312,16 @@
 					<li class="col-xs-6">
 					<li class="col-xs-6">
 						<div class="text-center">
-							<h3 class="text-dark-black"><a href="#/room-preview-deluxe" class="text-dark-black hover-text-aquablue">Deluxe</a></h3>
+							<h3 class="text-dark-black"><a href="room-preview-deluxe.html" class="text-dark-black hover-text-aquablue">Deluxe</a></h3>
 							<figure>
-								<a href="#/room-preview-deluxe"><img src="img/home_page/rooms/DSC_2157.jpg" alt="Deluxe Room"></a>
+								<a href="room-preview-deluxe.html"><img src="img/home_page/rooms/DSC_2157.jpg" alt="Deluxe Room"></a>
 							</figure>
 							<div class="rooms-description room-prev-descrip">
-								<p>
-									{{Deluxe}}
+								<p class="deluxeLng">
 								</p>
 								<div class="rooms-footer clearfix">
 									<span class="to-left align-button">Price: <b class="text-aquablue font-13x font-300">$135</b>USD</span>
-									<a href="#/room-preview-deluxe" class="button-sm to-right grey text-black hover-orange soft-corners">Book now</a>
+									<a href="room-preview-deluxe.html" class="button-sm to-right grey text-black hover-orange soft-corners">Book now</a>
 								</div>
 							</div>
 						</div>
