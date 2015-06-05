@@ -540,4 +540,8 @@
         <En>Hair Dryer</En>
         <Es>Secador de cabello</Es>
     </translation>
+    <translation id="addressLng">
+        <En>Address:</En>
+        <Es>Dirección:</Es>
+    </translation>
 </translations>
