@@ -24,8 +24,8 @@
 	    $mail->Encoding = '7bit';
 	    
 	    // Authentication  
-	    $mail->Username   = "camiloab01@gmail.com"; // Your full Gmail address
-	    $mail->Password   = "CamiMovil1030"; // Your Gmail password
+	    $mail->Username   = "booking.hotelvillatournon@gmail.com"; // Your full Gmail address
+	    $mail->Password   = "reservaciones1"; // Your Gmail password
 	      
 	    // Compose
 	    $mail->SetFrom($_POST['email'], $_POST['name']);
@@ -34,7 +34,7 @@
 	    $mail->MsgHTML($message);
 	 
 	    // Send To  
-	    $mail->AddAddress("camiloab_01@hotmail.com", "Camilo A."); // Where to send it - Recipient
+	    $mail->AddAddress("camiloab_01@hotmail.com", "Hotel Villa Tournon"); // Where to send it - Recipient
 	    $result = $mail->Send();		// Send!  
 		$msj = $result ? 'Successfully Sent! Soon we will contact you!' : 'Sending Failed!';      
 		unset($mail);
@@ -162,7 +162,7 @@
 				<div class="row">
 					<div class="col-md-8">
 						<div class="alert-box gold">
-							<h4 class="text-white"><?php echo '<p>'.$msj.'</p>' ?></h4>
+							<h4 class="text-white succesContactLng"></h4>
 						</div>
 					</div>
 					<div class="col-md-4">

@@ -380,6 +380,10 @@
         <En>Your reservation was succefull submited! Soon we will contact you!</En>
         <Es>Su reservación ha sido enviada exitósamente. Pronto nos comunicaremos con usted.</Es>
     </translation>
+    <translation id="succesContactLng">
+        <En>Your message was succefull submited! Soon we will contact you!</En>
+        <Es>Su mensaje ha sido enviado exitósamente. Pronto nos comunicaremos con usted.</Es>
+    </translation>
     <translation id="firstNameLng">
         <En>First Name:</En>
         <Es>Nombre:</Es>
