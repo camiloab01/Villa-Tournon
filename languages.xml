@@ -297,8 +297,8 @@
         <Es>Entrada: 15:00 - Salida: 12:00 *</Es>
     </translation>
     <translation id="changeSchedLng">
-        <En>*Late check-out could be possible upon availability</En>
-        <Es>*La salida podría ser más tarde dependiendo de la disponibilidad</Es>
+        <En>*Early check-in could be possible if available</En>
+        <Es>*La entrada podría ser más temprano dependiendo de la disponibilidad</Es>
     </translation>
     <translation id="aboutUsLng">
         <En>About Us</En>
