@@ -187,12 +187,16 @@
 															</div>
 															<div class="col-md-2">
 																<span class="adultsLng"></span>
-																<select class="rsvBooking" ng-model = "NumberAdultsSelected"
+																<!--<select class="rsvBooking" ng-model = "NumberAdultsSelected"
 																ng-change="adultsChanged()" name="number_adults_selected">
 																	<option>1</option>
 																	<option>2</option>
 																	<option>3</option>
 																	<option>4</option>
+																</select>-->
+																<select class="rsvBooking" ng-model = "NumberAdultsSelected"
+																ng-change="adultsChanged()" name="number_adults_selected">
+																	<option ng-repeat="people in AddPeople" value="{{people}}">{{people}}</option>
 																</select>
 															</div>
 															<div class="col-md-2">
