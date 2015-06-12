@@ -208,11 +208,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                  <div class="col-md-8">
                                     <div class="col-md-12">
                                         <a href="el-hotel.html" class="hotel-button button-md grey text-dark hover-orange" data-target="prev">El Hotel</a>
                                     </div>
-                                </div>
+                                 </div>
                             </li>
                         </ul>
                     </div>
