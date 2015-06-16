@@ -297,8 +297,8 @@
         <Es>Entrada: 15:00 - Salida: 12:00 *</Es>
     </translation>
     <translation id="changeSchedLng">
-        <En>*Early check-in could be possible if available</En>
-        <Es>*La entrada podría ser más temprano dependiendo de la disponibilidad</Es>
+        <En>*Early check-in upon availability</En>
+        <Es>*Entrada temprano de acuerdo a disponibilidad</Es>
     </translation>
     <translation id="aboutUsLng">
         <En>About Us</En>
@@ -386,6 +386,10 @@
     </translation>
     <translation id="firstNameLng">
         <En>First Name:</En>
+        <Es>Nombre:</Es>
+    </translation>
+    <translation id="nameLng">
+        <En>Name:</En>
         <Es>Nombre:</Es>
     </translation>
     <translation id="lastNameLng">
