@@ -460,11 +460,13 @@ var teslaThemes = {
   },
 
   datePicker: function() {
+    jQuery('#check-in').val("Check-in");
+    jQuery('#check-out').val("Check-out");
     jQuery('#check-in').datetimepicker({
       format:'m-d-Y',
       onShow:function( ct ){
         this.setOptions({
-          maxDate:false
+          minDate:jQuery('#check-in').val()?jQuery('#check-out').val():false
         })
       },
       timepicker:false
@@ -473,7 +475,7 @@ var teslaThemes = {
       format:'m-d-Y',
       onShow:function( ct ){
         this.setOptions({
-          minDate:jQuery('#check-in').val()?jQuery('#check-in').val():false
+          minDate:jQuery('#check-in').val()?jQuery('#check-out').val():false
         })
       },
       timepicker:false

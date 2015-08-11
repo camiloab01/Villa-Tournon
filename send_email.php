@@ -46,7 +46,7 @@
 	    $mail->MsgHTML($message);
 	 
 	    // Send To  
-	    $mail->AddAddress("camiloab_01@hotmail.com", "Hotel Villa Tournon"); // Where to send it - Recipient
+	    $mail->AddAddress("hvillas@racsa.co.cr", "Hotel Villa Tournon"); // Where to send it - Recipient
 	    $result = $mail->Send();		// Send!  
 		$message = $result ? 'Successfully Sent! Soon we will contact you!' : 'Sending Failed!';      
 		unset($mail);
@@ -101,8 +101,8 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="socialbtns inline-list to-right header-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook"></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube"></a></li>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
                                     <li>
                                         <label class="check-fancy white round-corners">
                                             <b>Sí</b>
@@ -241,8 +241,8 @@
                             </div>
                             <div class="socialbtns inline-list header-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook"></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube"></a></li>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
                                 </ul>
                             </div>                      
                         </div>
@@ -262,8 +262,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <p class="center-social copyright center-me font-small">
-                                <span class="uppercase" >copyright {{CurrentYear}}</span>
-                                <span> Developed by</span>
+                                <span> Designed by</span>
                                 <span><a href="https://www.linkedin.com/profile/view?id=341417214&trk=nav_responsive_tab_profile_pic">Natalia Alpízar</a>and<a href="https://www.linkedin.com/profile/view?id=168344330&authType=NAME_SEARCH&authToken=TlQX&locale=es_ES&trk=tyah2&trkInfo=idx%3A1-1-1%2CtarId%3A1426458567389%2Ctas%3Acamilo">Camilo Agüero</a></span> 
                             </p>
                         </div>

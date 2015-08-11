@@ -317,8 +317,24 @@ li.skype {
 
 }
 
+/*Adjust menu to new specs*/
+
+#menu_logo_container {
+	width: 28.333333%;
+}
+
+#menu_options_container {
+	width: 71.666667%;
+}
+
 
 /*Responsive*/
+
+@media screen and (max-width: 990px) {
+	#language_forMenu {
+		display: block !important;
+	}
+}
 
 @media screen and (max-width: 500px) {
 	#myCarousel {

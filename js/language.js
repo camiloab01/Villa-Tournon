@@ -66,11 +66,32 @@
     });
 
     var BookingController = function($scope){ 
+	
+	$scope.childrenNotAllowed = false;
 
     	var room;
     	var numberDays;
     	var dayPrice;
 
+        var today = new Date();
+        var dd = today.getDate();
+        var dd2 = today.getDate()+1;
+        var mm = today.getMonth()+1;
+        var yyyy = today.getFullYear();
+
+        if(dd<10){
+            dd='0'+dd;
+        } 
+        if(mm<10){
+            mm='0'+mm;
+        }
+
+        var today = mm+'-'+dd+'-'+yyyy; 
+        var tomorrow = mm+'-'+dd2+'-'+yyyy; 
+
+        $scope.CheckInSelected = today;
+        $scope.CheckOutSelected = tomorrow;
+        
     	var url = location.search;
 
 		room = $.query.get('room');
@@ -127,6 +148,7 @@
     				}
     				//$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer];
     				$scope.AddPeople =["1","2"];
+				$scope.childrenNotAllowed = false;
     				break;
     			case "Deluxe":
                     $scope.regPrice = 135;
@@ -140,6 +162,7 @@
     				}
     			//	$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
     				$scope.AddPeople =["1","2"];
+				$scope.childrenNotAllowed = true;
     				break;
     			case "Superior":
                     $scope.regPrice = 125;
@@ -157,6 +180,7 @@
     				}
     				///$scope.features =["Wi-Fi","TV","GYM","Parking",$scope.SafetyBox,$scope.HairDryer, $scope.IronTable];
     				$scope.AddPeople =["1","2","3","4"];
+				$scope.childrenNotAllowed = false;
     				break;
     		}
 

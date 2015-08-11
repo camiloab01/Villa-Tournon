@@ -23,7 +23,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.45;
-  color: #9a9a9a;
+  color: #575757;
 }
 
 img {
@@ -2023,7 +2023,8 @@ body .no-shadow {
 }
 
 .main-nav > ul > li a {
-  color: #a5a5a5;  
+  font-weight: 500;
+  color: #575757;  
 }
 
 .main-nav > ul > li > a:hover,
@@ -2590,7 +2591,7 @@ body .call-action-box {
 }
 
 .footer-sidebar ul > li a {
-  color: #adadad;
+  color: #575757;
 }
 
 
