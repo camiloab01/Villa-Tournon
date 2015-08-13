@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translations>
-    <!-- Big photo carousel -->
+    <translation id="nextLng">
+        <En>Next</En>
+        <Es>Siguiente</Es>
+    </translation>
+    <translation id="backLng">
+        <En>Back</En>
+        <Es>Atrás</Es>
+    </translation>
+    <translation id="submitReservationLng">
+        <En>SUBMIT RESERVATION</En>
+        <Es>ENVIAR RESERVACIÓN</Es>
+    </translation>
     <translation id="visitUslng">
         <En>Visit us in San José, Costa Rica</En>
         <Es>Visítenos en San José, Costa Rica</Es>

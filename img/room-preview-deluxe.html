@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hotel Villa Tournon</title>
+    <meta name="description" content="">
+    <!-- Responsive helper -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Fonts-->
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <!--scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- angular js -->
+    <script src="js/jquery.query-object.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-local-storage.js"></script>
+    <script src="js/language.js"></script>
+</head>
+<body ng-app = "home">
+    <div  ng-controller="LanguageController" id="home" class="boxed-view">
+        <header class="main-header clearfix">
+            <!-- Header Shorcode Area -->
+            <div class="header-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                            <ul class="stars text-golden">
+                                <li><i class="icon-573 font-13x"></i></li>
+                                <li><i class="icon-573 font-13x"></i></li>
+                                <li><i class="icon-573 font-13x"></i></li>
+                                <li><i class="icon-573 font-13x"></i></li>
+                            </ul>
+                            <ul class="inline-list uppercase font-small header-meta">
+                                <li><i class="icon-312 font-13x"></i> San Jose, Costa Rica</li>
+                                <li><i class="icon-274 font-13x"></i> <a href="mailto:hvillas@racsa.co.cr">hvillas@racsa.co.cr</a></li></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-4">
+                            <div class="socialbtns inline-list to-right header-social">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
+                                    <li>
+                                        <label class="check-fancy white round-corners">
+                                            <b>Sí</b>
+                                            <input type="checkbox" ng-model="checkboxModel.value" ng-change="languageChanged()" ng-init = "checkboxModel.value = init">
+                                            <span class="round-corners gold"></span>
+                                            <b>No</b>
+                                        </label>
+                                        <span class="lenguage-span">¿Español?</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.header-bar -->
+
+            <div class="nav-bar sticky-bar grey">
+                <!-- .mega-menu helper class ued as switcher -->
+                <div class="container">
+                    <div class="row">
+                        <div id="menu_logo_container" class="col-md-4 col-xs-8">
+                            <!-- Logo Area -->
+                            <figure class="identity">
+                                <a href="index.html">
+                                    <img src="img/logo.png" class="image-responsive" width="150" height="150" alt="Hotel Villa Tournon logo">
+                                </a>
+                            </figure>
+                        </div>
+                        <!-- /.col-md-2 -->
+                        <div id="menu_options_container" class="col-md-8 col-xs-4">
+                            <!-- Menu Area -->
+                            <nav class="main-nav clearfix">
+                                <!-- .mega-menu helper class ued as switcher -->
+                                <ul class="clean-list to-right clean-list-padding">
+                                    <!-- .to-right, to-left, .center-me helper class-->
+                                    <li><a href="index.html" class="homeLng"></a></li>
+                                    <li class="current-menu-item"><a href="rooms.html" class="roomsLng"></a></li>
+                                    <li><a href="booking.html" class="bookingLng"></a></li>
+                                    <li><a href="el-hotel.html">Hotel</a></li>
+                                    <li><a href="gallery.html" class="photoGalleryLng"></a></li>
+                                    <li><a href="gallery_art.html" class="artLng"></a></li>
+                                    <li><a href="about.html" class="aboutLng"></a></li>
+                                    <li><a href="contact-us.html" class="contactLng"></a></li>
+                                    <li style="display:none" id="language_forMenu">
+                                        <label class="check-fancy white round-corners">
+                                            <b>Sí</b>
+                                            <input type="checkbox" ng-model="checkboxModel.value" ng-change="languageChanged()" ng-init = "checkboxModel.value = init">
+                                            <span class="round-corners gold"></span>
+                                            <b>No</b>
+                                        </label>
+                                        <span class="lenguage-span">¿Español?</span>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- /.main-nav -->
+
+                            <a href="#" class="mobile-switch to-right">
+                                <i class="icon-467 font-2x text-dark hover-text-grey"></i>
+                            </a>
+                        </div>
+                        <!-- /.col-md-10 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.nav-bar -->
+        </header>
+        <!-- /.main-nav -->
+        <!-- main content -->
+        <section class="box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="text-center text-dark-black deluxeTitleLng"></h1>
+					</div>
+					<div class="col-md-12">
+						<div class="preview-room">
+							<ul class="clean-list">
+								<li>
+									<figure>
+										<img src="img/room_preview_deluxe/DSC_2097.jpg" alt="room preview">
+									</figure>
+								</li>
+								<li>
+									<figure>
+										<img src="img/room_preview_deluxe/DSC_2129.jpg" alt="room preview">
+									</figure>
+								</li>
+								<li>
+									<figure>
+										<img src="img/room_preview_deluxe/DSC_2115.jpg" alt="room preview">
+									</figure>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="preview-room-nav preview-room-nav-room">
+							<ul class="clean-list">
+								<li>
+									<figure>
+										<a href="img/room_preview_deluxe/DSC_2097.jpg" data-target="1">
+											<img src="img/room_preview_deluxe/DSC_2097.jpg" alt="room navigation">
+										</a>
+									</figure>
+								</li>
+								<li>
+									<figure>
+										<a href="img/room_preview_deluxe/DSC_2129.jpg" data-target="2">
+											<img src="img/room_preview_deluxe/DSC_2129.jpg" alt="room navigation">
+										</a>
+									</figure>
+								</li>
+								<li>
+									<figure>
+										<a href="img/room_preview_deluxe/DSC_2115.jpg" data-target="3">
+											<img src="img/room_preview_deluxe/DSC_2115.jpg" alt="room navigation">
+										</a>
+									</figure>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</section> <!-- /.box -->
+
+		<section class="box border-bottom book-box" data-stellar-background-ratio="0.5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4 class="the-title text-center font-300 makeReservationLng"></h4>
+						<div class="booking-form">
+							<form action="booking.html" method="GET" enctype="text/plain"  class="row no-padding" name="bookingHome">
+                                <div class="col-md-2 col-sm-12">
+                                    <span class="text-white SpanRoomlng">Room:</span>
+                                    <i class="icon-201"></i>
+                                    <input type="text" readonly class="room-select" placeholder="Room"name="room" value="Deluxe" required>
+                                    <ul class="clean-list font-small" required>
+                                        <li>Deluxe</li>
+                                        <li>Superior</li>
+                                        <li>Standard</li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-2 col-sm-6">
+                                    <span class="text-white SpanCheckInlng"><i class="icon-233"></i> Check In:</span>
+                                    
+                                    <input type="text" id="check-in" name="checkIn" required>
+                                </div>
+                                <div class="col-md-2 col-sm-6">
+                                    <span class="text-white SpanCheckOutlng"><i class="icon-233"></i> Check Out:</span>
+                                    <input type="text" id="check-out" name="checkOut" required>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <span class="text-white NumberRoomslng">Number of Rooms:</span>
+                                    <input type="number" class="dark text-white" name="NumberRooms" min="0" required>
+                                </div>
+                                <div class="col-md-2 col-sm-12 text-right">
+                                    <button type="submit" class="gold button-md soft-corners bookNowLng" ng-disabled="bookingHome.$invalid"></button>
+                                </div>
+                            </form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!-- /.book-form -->
+
+		<section class="box">
+			<div class="container">
+				<div class="row">
+						<div class="text-dark-black text-center fancy-heading">
+							<h1 class="font-700 descriptionLng"></h1>
+							<hr class="text-dark-black">		
+						</div>
+						<p class="center-me">
+						<b class="text-aquablue font-3x">$ 135</b>
+						<span> USD /per day</span>
+						</p>
+						<div class="col-md-8">
+							<p class="deluxeDescription1Lng"></p>
+							<p class="deluxeDescription2Lng"></p>
+						</div>
+						<div class="col-md-4">
+							<ul class="clean-list text-dark-black iconic-list col-md-offset-1">
+								<li>
+									<i class="icon-124"></i>
+									Wi-Fi  
+								</li>
+								<li>
+									<i class="icon-124"></i>
+									Coffee maker  
+								</li>
+								<li>
+									<i class="icon-124"></i>
+									Mini bar  
+								</li>
+								<li>
+									<i class="icon-124"></i>
+									TV  
+								</li>
+								<li>
+									<i class="icon-124"></i>
+									<span class="surroundedGardenLng"></span>
+								</li>
+								<li>
+									<i class="icon-124"></i>
+									<span class="phoneLng"></span>
+								</li>
+								<li>
+									<i class="icon-124"></i>
+									<span class="kingBedLng"></span>
+								</li>	
+							</ul>	
+						</div>	
+				</div>
+			</div>
+		</section>
+		<section class="box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-dark-black text-center fancy-heading">
+							<h1 class="font-700 relatedRommsLng"></h1>
+							<hr class="text-dark-black size-30 center-me">
+							<br>			
+						</div>
+					</div>
+				</div>
+				<ul class="clean-list rooms-items row">
+					<li class="col-xs-6">
+						<div class="text-center">
+							<h3 class="text-dark-black"><a href="room-preview-standard.html" class="text-dark-black hover-text-aquablue">Standard</a></h3>
+							<figure>
+								<a href="room-preview-standard.html"><img src="img/home_page/rooms/DSC_2648.jpg" alt="Standard Room"></a>
+							</figure>
+							<div class="rooms-description room-prev-descrip">
+								<p class = "standardLng">
+								</p>
+								<div class="rooms-footer clearfix">
+									<span class="to-left align-button">Price: <b class="text-aquablue font-13x font-300">$95</b>USD</span>
+									<a href="room-preview-standard.html" class="button-sm to-right grey text-black hover-orange soft-corners bookNowLng"></a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="col-xs-6">
+						<div class="text-center">
+							<h3 class="text-dark-black"><a href="room-preview-superior.html" class="text-dark-black hover-text-aquablue">Superior</a></h3>
+							<figure>
+								<a href="room-preview-superior.html"><img src="img/home_page/rooms/DSC_2369.jpg" alt="Superior Room"></a>
+							</figure>
+							<div class="rooms-description room-prev-descrip">
+								<p class="superiorLng">
+								</p>
+								<div class="rooms-footer clearfix">
+									<span class="to-left align-button">Price: <b class="text-aquablue font-13x font-300">$125</b>USD</span>
+									<a href="room-preview-superior.html" class="button-sm to-right grey text-black hover-orange soft-corners bookNowLng"></a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul> <!-- /.row -->
+			</div> <!-- /.container -->
+		</section> <!-- /.box -->
+		<footer class="main-footer">
+            <!-- Footer widgets -->
+            <div class="big-footer box footer-box dark-less">
+                <div class="container">
+                    <div class="footer-sidebar row">
+
+                        <div class="col-md-4 col-sm-6 widget">
+                            <figure>
+                                <a href="index.html">
+                                    <img src="img/logo.png" class="center-block" width="150" height="150" alt="Hotel Villa Tournon logo">
+                                </a>
+                            </figure>
+                            <p class="footerLng"></p>
+                        </div>
+                        
+                        <div class="col-md-4 center-social col-sm-6 widget post-widget">
+                            <div class="text-dark-black text-center fancy-heading">
+                                <h4 class="font-700 followLng"></h4>
+                                <hr class="text-dark-black size-30 center-me">              
+                            </div>
+                            <div class="socialbtns inline-list header-social">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
+                                </ul>
+                            </div>                      
+                        </div>
+                    <div class="col-md-4 col-sm-12 widget">
+                            <ul class="clean-list contact-info text-dark-black uppercase">
+                                <li><i class="fa fa-paper-plane fa-2x"></i> <b class="addressLng"></b><a class="POBoxLng"></a></li>
+                                <li><i class="fa fa-envelope fa-2x"></i> <b class="ContactMaillng"></b> <a href="mailto:hvillas@racsa.co.cr">hvillas@racsa.co.cr</a></li>
+                                <li itemprop="telephone"><i class="fa fa-phone fa-2x"></i> <b class="phoneLng"></b> <a href="tel:+50622336622">(506) 2233 66 22</a></li>
+                                <li itemprop="telephone"><i class="fa fa-fax fa-2x"></i> <b>Fax: </b> <a href="tel:+50622225211">(506) 2222 52 11</a></li>
+                            </ul>
+                        </div> 
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.big-footer -->     
+            <div class="small-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="center-social copyright center-me font-small">
+                                <span> Designed by</span>
+                                <span><a href="https://www.linkedin.com/profile/view?id=341417214&trk=nav_responsive_tab_profile_pic">Natalia Alpízar</a>and<a href="https://www.linkedin.com/profile/view?id=168344330&authType=NAME_SEARCH&authToken=TlQX&locale=es_ES&trk=tyah2&trkInfo=idx%3A1-1-1%2CtarId%3A1426458567389%2Ctas%3Acamilo">Camilo Agüero</a></span> 
+                            </p>
+                        </div>
+                    </div> <!-- /.row -->
+                </div>          
+            </div><!-- /.small-footer -->   
+        </footer><!-- /.main-footer -->
+    </div><!-- /.boxed-view -->
+</body>
+<script src="js/common.js"></script>
+<script src="js/bookingLogic.js"></script>
+<script src="js/logic.js"></script>
+<script type="text/javascript" src="js/simplycarousel.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/options.js"></script>
+</html>
