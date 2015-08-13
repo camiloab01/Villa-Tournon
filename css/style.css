@@ -327,6 +327,14 @@ li.skype {
 	width: 71.666667%;
 }
 
+.icon-233 {
+	line-height: 45px !important;
+}
+
+#submit_rsv {
+	padding-left: 2em !important; 
+}
+
 
 /*Responsive*/
 
@@ -346,11 +354,6 @@ li.skype {
 	}
 	a.left, a.right {
 		display: none;
-	}
-	img.logo-img {
-		height: 83px;
-		width: 115px;
-		/*width: 100px;*/
 	}
 	.booking-info h3 {
   		font-size: 1.2em;
@@ -400,6 +403,25 @@ li.skype {
 	}
 	a.button-sm.to-right.grey.text-black.hover-orange.soft-corners, span.to-left.align-button {
 		float: none;
+	}
+	.restaurant_image {
+		display: none;
+	}
+	.next_button {
+		padding: 0.5em 7em !important;
+		margin: 20px !important;
+	}
+	.pricesFromLng {
+		float: left !important;
+	}
+	.nav-bar {
+		padding: 0 !important;
+	}
+	.identity {
+		margin-top: -23px;
+	}
+	.mobile-menu {
+    	top: 1.5em !important;
 	}
 }	
 

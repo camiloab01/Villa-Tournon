@@ -51,7 +51,7 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="socialbtns inline-list to-right header-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/245464802135375" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
                                     <li>
                                         <label class="check-fancy white round-corners">
@@ -78,7 +78,7 @@
                             <!-- Logo Area -->
                             <figure class="identity">
                                 <a href="index.html">
-                                    <img src="img/logo.png" class="logo-img" width="150" height="150" alt="Hotel Villa Tournon logo">
+                                    <img src="img/logo.png" class="image-responsive" width="150" height="150" alt="Hotel Villa Tournon logo">
                                 </a>
                             </figure>
                         </div>
@@ -97,6 +97,15 @@
                                     <li><a href="gallery_art.html" class="artLng"></a></li>
                                     <li><a href="about.html" class="aboutLng"></a></li>
                                     <li><a href="contact-us.html" class="contactLng"></a></li>
+                                    <li style="display:none" id="language_forMenu">
+                                        <label class="check-fancy white round-corners">
+                                            <b>Sí</b>
+                                            <input type="checkbox" ng-model="checkboxModel.value" ng-change="languageChanged()" ng-init = "checkboxModel.value = init">
+                                            <span class="round-corners gold"></span>
+                                            <b>No</b>
+                                        </label>
+                                        <span class="lenguage-span">¿Español?</span>
+                                    </li>
                                 </ul>
                             </nav>
                             <!-- /.main-nav -->
@@ -122,7 +131,7 @@
 			<img width="100%" height="100%" src="img/ebony_&_ivory/DSC_2469.jpg">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-sm-3">
+					<div class="col-md-4 col-sm-3 restaurant_image">
 						<div class="text-white text-center ">
 							<br>
 							<br>
@@ -135,14 +144,14 @@
 							<hr>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-4 col-sm-6 restaurant_image">
 						<div class="shape-round white opacity-80">
 							<div class="restaurant-logo">
 								<img src="img/ebony_&_ivory/Ebony_Ivory_logo.png" width="320" height="320" alt="ebony_&_ivory_logo">
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-3">
+					<div class="col-md-4 col-sm-3 restaurant_image">
 						<div class="text-white text-center ">
 							<br>
 							<br>
@@ -251,7 +260,7 @@
                             </div>
                             <div class="socialbtns inline-list header-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/245464802135375" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
                                 </ul>
                             </div>                      

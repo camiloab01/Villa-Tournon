@@ -101,7 +101,7 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="socialbtns inline-list to-right header-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/245464802135375" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
                                     <li>
                                         <label class="check-fancy white round-corners">
@@ -241,7 +241,7 @@
                             </div>
                             <div class="socialbtns inline-list header-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/245464802135375" class="fa fa-lg fa-facebook" target="_blank"></a></li>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Villa-Tournon/467352330081528?ref=hl" class="fa fa-lg fa-facebook" target="_blank"></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCb6l07CxLlI9O40yBAJUCmw?view_as=subscriber" class="fa fa-lg fa-youtube" target="_blank"></a></li>
                                 </ul>
                             </div>                      

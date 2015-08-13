@@ -4133,7 +4133,7 @@ form div {
 form div > i {
   position: absolute;
   right: 1.3em;
-  line-height: 45px !important;
+  line-height: 100px !important;
 }
 
 .booking-form form div > input[disabled] {
