@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translations>
-    <!-- Big photo carousel -->
+    <translation id="nextLng">
+        <En>Next</En>
+        <Es>Siguiente</Es>
+    </translation>
+    <translation id="backLng">
+        <En>Back</En>
+        <Es>Anterior</Es>
+    </translation>
+    <translation id="submitLng">
+        <En>SUBMIT RESERVATION</En>
+        <Es>ENVIAR RESERVA</Es>
+    </translation>
     <translation id="visitUslng">
-        <En>Visit us in San José, Costa Rica</En>
-        <Es>Visítenos en San José, Costa Rica</Es>
+        <En>Visit us in San JosÃ©, Costa Rica</En>
+        <Es>VisÃ­tenos en San JosÃ©, Costa Rica</Es>
     </translation>
     <translation id="sustanCommitmentLng">
         <En>Our commitment with sustainability</En>
@@ -13,8 +24,8 @@
         <En>Currently, Hotel Villa Tournon is negotiating with the Instituto Costarricense de Turismo Certificate for Sustainable Tourism (CST). However, for years we have been identifying all environmental aspects of our activities to act on them. We have already made progress in methods of efficiency in energy and water consumption, waste separation, control chemical usage. In addition we have incorporated wing organization management and a series of methodology and procedure regarding a code of conduct involving shareholder, customer employees, suppliers, environment, society.
         This year we are committed to creating an alliance, establishing an agenda of appointments with our suppliers to find sustainable solutions to the environment; and share and discuss new ideas and eco-efficient initiatives.
         </En>
-        <Es>Actualmente, Hotel Villa Tournon está gestionando ante el Instituto Costarricense de Turismo el Certificado de Sostenibilidad Turística (CST).  No obstante, hace años hemos venido identificando todos los aspectos ambientales de nuestras actividades para poder actuar sobre ellas. Ya hemos avanzado en métodos de eficiencia en el consumo de energía y agua, separación de residuos, control de uso de productos químicos. Además hemos ido incorporando ala gestión y organización una serie de metodología y procedimiento referente a un código de conducta que implica a accionista, empleados cliente, proveedores, medio ambiente, sociedad.
-        Este año tenemos el compromiso de la creación de una alianza, estableciendo una agenda de citas con nuestros proveedores para la búsqueda de soluciones sostenibles con el medio ambiente; además de compartir y debatir nuevas ideas e iniciativas eco eficientes.
+        <Es>Actualmente, Hotel Villa Tournon estÃ¡ gestionando ante el Instituto Costarricense de Turismo el Certificado de Sostenibilidad TurÃ­stica (CST).  No obstante, hace aÃ±os hemos venido identificando todos los aspectos ambientales de nuestras actividades para poder actuar sobre ellas. Ya hemos avanzado en mÃ©todos de eficiencia en el consumo de energÃ­a y agua, separaciÃ³n de residuos, control de uso de productos quÃ­micos. AdemÃ¡s hemos ido incorporando ala gestiÃ³n y organizaciÃ³n una serie de metodologÃ­a y procedimiento referente a un cÃ³digo de conducta que implica a accionista, empleados cliente, proveedores, medio ambiente, sociedad.
+        Este aÃ±o tenemos el compromiso de la creaciÃ³n de una alianza, estableciendo una agenda de citas con nuestros proveedores para la bÃºsqueda de soluciones sostenibles con el medio ambiente; ademÃ¡s de compartir y debatir nuevas ideas e iniciativas eco eficientes.
         </Es>
     </translation>
     <translation id="Welcomelng">
@@ -31,13 +42,13 @@
     </translation>
     <translation id="EnjoyVClng">
         <En>With us you will enjoy your Vacation</En>
-        <Es>Con nosotros usted disfrutará de sus Vacaciones</Es>
+        <Es>Con nosotros usted disfrutarÃ¡ de sus Vacaciones</Es>
     </translation>
     <!-- Big photo carousel End-->
     <!-- Booking box -->
     <translation id="SpanRoomlng">
         <En>Room:</En>
-        <Es>Habitación:</Es>
+        <Es>HabitaciÃ³n:</Es>
     </translation>
     <translation id="SpanCheckInlng">
         <En>Check In:</En>
@@ -86,7 +97,7 @@
     </translation>
     <translation id="readMoreLng">
         <En>Read more</En>
-        <Es>Leer más</Es>
+        <Es>Leer mÃ¡s</Es>
     </translation>
     <translation id="servicesLng">
         <En>Services</En>
@@ -101,12 +112,12 @@
         <Es>Restaurante Ebony and Ivory</Es>
     </translation>
     <translation id="rinconAzulLng">
-        <En>Rincón Azul Restaurant</En>
-        <Es>Restaurante Rincón Azul</Es>
+        <En>RincÃ³n Azul Restaurant</En>
+        <Es>Restaurante RincÃ³n Azul</Es>
     </translation>
     <translation id="poolLng">
         <En>Garden, Pool and Jacuzzi</En>
-        <Es>Jardín, Piscina y Jacuzzi</Es>
+        <Es>JardÃ­n, Piscina y Jacuzzi</Es>
     </translation>
     <translation id="businessLng">
         <En>Business Center</En>
@@ -122,11 +133,11 @@
     </translation>
     <translation id="photoGalleryLng">
         <En>Photo Gallery</En>
-        <Es>Galerías de Fotos</Es>
+        <Es>GalerÃ­as de Fotos</Es>
     </translation>
     <translation id="hotelMinLng">
         <En>Hotel Villa Tournon has 80 rooms including standard, Superior and De Luxe rooms. Some of the rooms stand out for their view to a garden surrounding the pool and Jacuzzi; In addition to a beautiful view of San Jose at night, with its illuminated buildings, embedded in a Hill as competing with each other to exceed in height.</En>
-        <Es>Hotel Villa Tournon tiene 80 habitaciones entre Estándar, Superior y De Luxe. Algunas de la habitaciones se destacan por su vista hacia un amplio jardín rodeando la piscina y jacuzzi; además de una hermosa vista de San José especialmente de noche, con sus edificios iluminados, incrustados en una loma como compitiendo entre ellos para superar en altura.</Es>
+        <Es>Hotel Villa Tournon tiene 80 habitaciones entre EstÃ¡ndar, Superior y De Luxe. Algunas de la habitaciones se destacan por su vista hacia un amplio jardÃ­n rodeando la piscina y jacuzzi; ademÃ¡s de una hermosa vista de San JosÃ© especialmente de noche, con sus edificios iluminados, incrustados en una loma como compitiendo entre ellos para superar en altura.</Es>
     </translation>
     <translation id="roomsLng">
         <En>Rooms</En>
@@ -134,7 +145,7 @@
     </translation>
     <translation id="roomLng">
         <En>Room:</En>
-        <Es>Habitación:</Es>
+        <Es>HabitaciÃ³n:</Es>
     </translation>
     <translation id="adultsLng">
         <En>Adults:</En>
@@ -142,31 +153,31 @@
     </translation>
     <translation id="childrenLng">
         <En>Childen:</En>
-        <Es>Niños:</Es>
+        <Es>NiÃ±os:</Es>
     </translation>
     <translation id="standardLng">
         <En>The standars rooms are fine parquet wood floors. Currently the felling and commercialization of some of these woods are prohibited by law.</En>
-        <Es>Las habitaciones standars son de pisos de fina madera parqué.  Actualmente la tala y  la comercialización  de  algunas de estas maderas están prohibidas por ley.</Es>
+        <Es>Las habitaciones standars son de pisos de fina madera parquÃ©.  Actualmente la tala y  la comercializaciÃ³n  de  algunas de estas maderas estÃ¡n prohibidas por ley.</Es>
     </translation>
     <translation id="superiorLng">
         <En>Superior rooms are spacious, have shower and bathtub, amenities, sitting area. Some with King bed and others with two double beds.</En>
-        <Es> Las habitaciones superiores son espaciosas, disponen de ducha y tina, amenidades, área de sala. Unas con cama King y otras con dos camas matrimoniales.</Es>
+        <Es> Las habitaciones superiores son espaciosas, disponen de ducha y tina, amenidades, Ã¡rea de sala. Unas con cama King y otras con dos camas matrimoniales.</Es>
     </translation>
     <translation id="deluxeLng">
         <En>The delux rooms are distinguished by its superb location; It overlooks a fountain surrounded by a garden in an inner courtyard that warrant sublime tranquility.</En>
-        <Es>La habitación delux se distingue por su exquisita ubicación; tiene  vista a una fuente rodeada por un  jardín en un patio interno que garantizas sublime tranquilidad.</Es>
+        <Es>La habitaciÃ³n delux se distingue por su exquisita ubicaciÃ³n; tiene  vista a una fuente rodeada por un  jardÃ­n en un patio interno que garantizas sublime tranquilidad.</Es>
     </translation>
     <translation id="followLng">
         <En>Follow up</En>
-        <Es>Síganos</Es>
+        <Es>SÃ­ganos</Es>
     </translation>
     <translation id="footerLng">
         <En>Hotel Villa Tournon always serves you in a style reserved to serve the most demanding guest.</En>
-        <Es>Hotel Villa Tournon siempre sirve con estilo a los huéspedes más exigentes.</Es>
+        <Es>Hotel Villa Tournon siempre sirve con estilo a los huÃ©spedes mÃ¡s exigentes.</Es>
     </translation>
     <translation id="roomsDescLng">
         <En>Some of the rooms stand out for their views of a large garden surrounding the pool and Jacuzzi; In addition to the beautiful one of San Jose at night with its illuminated buildings, embedded in a Hill as competing with each other to exceed in height.</En>
-        <Es>Algunas de las habitaciones se destacan por su vista hacia un amplio jardín rodeando la piscina y  jacuzzi; además de una hermosa vista de San José, de noche con sus edificios iluminados, incrustados en una loma como compitiendo entre ellos para superar en altura.</Es>
+        <Es>Algunas de las habitaciones se destacan por su vista hacia un amplio jardÃ­n rodeando la piscina y  jacuzzi; ademÃ¡s de una hermosa vista de San JosÃ©, de noche con sus edificios iluminados, incrustados en una loma como compitiendo entre ellos para superar en altura.</Es>
     </translation>
     <translation id="priceLng">
         <En>Price</En>
@@ -178,11 +189,11 @@
     </translation>
     <translation id="hotelLng2">
         <En>has 80 rooms including standard, Superior and De Luxe rooms. Some of the rooms stand out for their view to a garden surrounding the pool and Jacuzzi; In addition to a beautiful view of </En>
-        <Es>tiene 80 habitaciones entre  Estándar, Superior y De Luxe. Algunas de la habitaciones se destacan por su vista hacia un amplio jardín rodeando la piscina y jacuzzi; además de una hermosa vista de </Es>
+        <Es>tiene 80 habitaciones entre  EstÃ¡ndar, Superior y De Luxe. Algunas de la habitaciones se destacan por su vista hacia un amplio jardÃ­n rodeando la piscina y jacuzzi; ademÃ¡s de una hermosa vista de </Es>
     </translation>
     <translation id="hotelLng3">
-        <En>San José </En>
-        <Es>San José </Es>
+        <En>San JosÃ© </En>
+        <Es>San JosÃ© </Es>
     </translation>
     <translation id="hotelLng4">
         <En>at night, with its illuminated buildings, embedded in a Hill as competing with each other to exceed in height. </En>
@@ -190,11 +201,11 @@
     </translation>
     <translation id="hotelLng5">
         <En>This hotel is situated in the exclusive executive area of Barrio Tournon, just eight blocks from the central avenue of </En>
-        <Es>Está situado en la exclusiva área ejecutiva de Barrio Tournon, a solo ocho cuadras de la avenida central de </Es>
+        <Es>EstÃ¡ situado en la exclusiva Ã¡rea ejecutiva de Barrio Tournon, a solo ocho cuadras de la avenida central de </Es>
     </translation>
     <translation id="hotelLng6">
         <En>San Jose; the capital of Costa Rica. </En>
-        <Es>San José; la capital de Costa Rica. </Es>
+        <Es>San JosÃ©; la capital de Costa Rica. </Es>
     </translation>
     <translation id="hotelLng7">
         <En>A few steps away are located: relevant institutions of the State, a major private </En>
@@ -213,8 +224,8 @@
         <Es>zona del Caribe, </Es>
     </translation>
     <translation id="hotelLng11">
-        <En>of Costa Rica, Simon Bolívar Park, Butterfly Garden and other attractions are located. </En>
-        <Es>el Parque Simón Bolívar, Jardín de mariposas y otros lugares de interés. </Es>
+        <En>of Costa Rica, Simon BolÃ­var Park, Butterfly Garden and other attractions are located. </En>
+        <Es>el Parque SimÃ³n BolÃ­var, JardÃ­n de mariposas y otros lugares de interÃ©s. </Es>
     </translation>
     <translation id="hotelLng12">
         <En>The Hotel Villa Tournon </En>
@@ -222,7 +233,7 @@
     </translation>
     <translation id="hotelLng13">
         <En>built in the early '80s upon an irregular ground; it consists of three floors. You enter through the third floor to move down to the second and first floor. Continuing the descent you reach the area of the </En>
-        <Es>construido a principio de los años 80 sobre un terreno irregular en terraza; consta de tres pisos. Se ingresa por el tercer piso para trasladarse a la segunda y la primera planta. Continuando el descenso se llega al área de la </Es>
+        <Es>construido a principio de los aÃ±os 80 sobre un terreno irregular en terraza; consta de tres pisos. Se ingresa por el tercer piso para trasladarse a la segunda y la primera planta. Continuando el descenso se llega al Ã¡rea de la </Es>
     </translation>
     <translation id="hotelLng14">
         <En>pool and Jacuzzi </En>
@@ -230,23 +241,23 @@
     </translation>
     <translation id="hotelLng15">
         <En>surrounded by a beautiful and colorful garden. </En>
-        <Es>rodeado de un hermoso y colorido jardín. </Es>
+        <Es>rodeado de un hermoso y colorido jardÃ­n. </Es>
     </translation>
     <translation id="hotelLng16">
         <En>In the architectural structure of this building you will appreciate a stunning sky craft, made out of fine and precious wood in the Lobby, </En>
-        <Es>Se aprecia en la arquitectónica del edificio un impresionante cielo artesanado, de fina y preciada madera en las áreas del Lobby, </Es>
+        <Es>Se aprecia en la arquitectÃ³nica del edificio un impresionante cielo artesanado, de fina y preciada madera en las Ã¡reas del Lobby, </Es>
     </translation>
     <translation id="hotelLng17">
         <En>Bar and the Restaurant Rincon Azul. </En>
-        <Es>Bar y  Restaurante Rincón Azul. </Es>
+        <Es>Bar y  Restaurante RincÃ³n Azul. </Es>
     </translation>
     <translation id="hotelLng18">
         <En>Also the floors of most of the rooms are furnished with the mention wood. At present logging and selling of this wood is banned by law in our country.</En>
-        <Es>Así mismo los pisos de la mayoría de las habitaciones son de la citada madera, ya prohibido su tala y venta por ley en nuestro país. </Es>
+        <Es>AsÃ­ mismo los pisos de la mayorÃ­a de las habitaciones son de la citada madera, ya prohibido su tala y venta por ley en nuestro paÃ­s. </Es>
     </translation>
     <translation id="hotelLng19">
         <En>All areas of the Hotel Villa Tournon are adorned with paintings of different themes and techniques of local and foreign authors; which makes this </En>
-        <Es>Todas las áreas del Hotel Villa Tournon  están engalanadas con pinturas de diferentes temáticas y técnicas, de autores  costarricenses y extranjeros; los cuales convierten este </Es>
+        <Es>Todas las Ã¡reas del Hotel Villa Tournon  estÃ¡n engalanadas con pinturas de diferentes temÃ¡ticas y tÃ©cnicas, de autores  costarricenses y extranjeros; los cuales convierten este </Es>
     </translation>
     <translation id="hotelLng20">
         <En>hotel </En>
@@ -254,15 +265,15 @@
     </translation>
     <translation id="hotelLng21">
         <En>a real </En>
-        <Es>en una auténtica </Es>
+        <Es>en una autÃ©ntica </Es>
     </translation>
     <translation id="hotelLng22">
         <En>gallery. </En>
-        <Es>Galería. </Es>
+        <Es>GalerÃ­a. </Es>
     </translation>
     <translation id="hotelLng23">
         <En>Art and culture is its emblem. The congregation of these works of art accompanied by friendly service staff is an invitation to learn more about </En>
-        <Es>El arte y la cultura son su emblema. La congregación de estas obras de arte acompañado del amable servicio del personal es una invitación para conocer más de </Es>
+        <Es>El arte y la cultura son su emblema. La congregaciÃ³n de estas obras de arte acompaÃ±ado del amable servicio del personal es una invitaciÃ³n para conocer mÃ¡s de </Es>
     </translation>
     <translation id="hotelLng24">
         <En>Costa Rica. </En>
@@ -270,7 +281,7 @@
     </translation>
     <translation id="hotelLng25">
         <En>Furthermore than rooms accommodation, restaurant services, swimming pool, conference and exercise room; </En>
-        <Es>Además, de los servicios de alojamiento, restaurante, piscina, servicio de salas de conferencia y de ejercicio; </Es>
+        <Es>AdemÃ¡s, de los servicios de alojamiento, restaurante, piscina, servicio de salas de conferencia y de ejercicio; </Es>
     </translation>
     <translation id="hotelLng26">
         <En>Hotel Villa Tournon </En>
@@ -278,7 +289,7 @@
     </translation>
     <translation id="hotelLng27">
         <En>has a direct association with </En>
-        <Es>tiene una asociación directa con el </Es>
+        <Es>tiene una asociaciÃ³n directa con el </Es>
     </translation>
     <translation id="hotelLng28">
         <En>Tourism in Costa Rica. </En>
@@ -286,7 +297,7 @@
     </translation>
     <translation id="hotelLng29">
         <En>The Hotel serves as an intermediary to obtain </En>
-        <Es>Sirve de intermediario para la obtención de </Es>
+        <Es>Sirve de intermediario para la obtenciÃ³n de </Es>
     </translation>
     <translation id="hotelLng30">
         <En>Vacation Packages in Costa Rica: </En>
@@ -294,11 +305,11 @@
     </translation>
     <translation id="hotelLng31">
         <En>information of the best </En>
-        <Es>información sobre las mejores </Es>
+        <Es>informaciÃ³n sobre las mejores </Es>
     </translation>
     <translation id="hotelLng32">
-        <En>beaches in Costa Rica, Costa Rica maps, Tourist Attractions of Costa Rica, places in Costa Rica all inclusive, beach hotels, Flights to Costa Rica , places to visit in the Capital San Jose, Costa Rica; Doctor´s services and Real Estate- Costa Rica. </En>
-        <Es>Playas de Costa Rica, Mapas de Costa Rica, Lugares turísticos de Costa Rica, lugares en Costa Rica todo incluido, Hoteles de playa, sobre Vuelos en Costa Rica, lugares a visitar en la Capital- San José de Costa Rica; asimismo Servicio de médicos y Bienes raíces - Costa Rica.</Es>
+        <En>beaches in Costa Rica, Costa Rica maps, Tourist Attractions of Costa Rica, places in Costa Rica all inclusive, beach hotels, Flights to Costa Rica , places to visit in the Capital San Jose, Costa Rica; DoctorÂ´s services and Real Estate- Costa Rica. </En>
+        <Es>Playas de Costa Rica, Mapas de Costa Rica, Lugares turÃ­sticos de Costa Rica, lugares en Costa Rica todo incluido, Hoteles de playa, sobre Vuelos en Costa Rica, lugares a visitar en la Capital- San JosÃ© de Costa Rica; asimismo Servicio de mÃ©dicos y Bienes raÃ­ces - Costa Rica.</Es>
     </translation>
     <translation id="hotelLng33">
         <En>The main </En>
@@ -318,7 +329,7 @@
     </translation>
     <translation id="hotelLng37">
         <En>makes your </En>
-        <Es>hará que su </Es>
+        <Es>harÃ¡ que su </Es>
     </translation>
     <translation id="hotelLng38">
         <En>journey in Costa Rica (Costa Rica Travel) </En>
@@ -326,7 +337,7 @@
     </translation>
     <translation id="hotelLng39">
         <En>easier.</En>
-        <Es>sea más fácil.</Es>
+        <Es>sea mÃ¡s fÃ¡cil.</Es>
     </translation>
     <translation id="pricesFromLng">
         <En>Prices from</En>
@@ -344,8 +355,8 @@
         <En>Ebony and Ivory restaurant is a space recently designed in the hotel consisting of a modern and warm environment; where you can distinguish the decoration in black and white, in the ceilings, walls, furniture and tableware; additionally supplemented with arts including paintings, photographs and sculptures. 
         The cuisine also shares this dichotomy. You will be able to enjoy a dish fusion regarding European food mainly Spanish, French, and Italian likewise in one sense, and on the other, the cuisine of the Caribbean countries. The Caribbean representing the concept of Ebony and the european of  Ivory. 
         </En>
-        <Es>El Restaurante Ebony and Ivory es un espacio recientemente diseñado en el hotel que consta de un entorno moderno y cálido; en la que se  evidencia una decoración en blanco y negro, entre cielos, paredes, muebles y menaje; además complementado con artes entre pinturas, fotografías y esculturas. 
-        Su gastronomía comparte también esta dicotomía.  La cocina es una fusión de platos europeos, fundamentalmente de las cocinas española, italiana y francesa, por una parte,  por la otra,  la culinaria de los países caribeños. La Caribeña en representación del concepto de Ebony y la europea a Ivory. 
+        <Es>El Restaurante Ebony and Ivory es un espacio recientemente diseÃ±ado en el hotel que consta de un entorno moderno y cÃ¡lido; en la que se  evidencia una decoraciÃ³n en blanco y negro, entre cielos, paredes, muebles y menaje; ademÃ¡s complementado con artes entre pinturas, fotografÃ­as y esculturas. 
+        Su gastronomÃ­a comparte tambiÃ©n esta dicotomÃ­a.  La cocina es una fusiÃ³n de platos europeos, fundamentalmente de las cocinas espaÃ±ola, italiana y francesa, por una parte,  por la otra,  la culinaria de los paÃ­ses caribeÃ±os. La CaribeÃ±a en representaciÃ³n del concepto de Ebony y la europea a Ivory. 
         </Es>
     </translation>
     <translation id="rinconAzulDescLng">
@@ -354,9 +365,9 @@
         The dining area is decorated with embossed art work, tapestries with scenes recreating historic moments of the harvest of coffee in our country; watercolor paintings, oil paintings, beautiful stained glass windows and a brick fireplace are just some of the objects that you can admire and observe while you relish our national and international gastronomic specialties in which prevails the tender care and the notorious courtesy of the staff.  This attention to guests is extended from 6 am until 10 pm.
         Social events are held in this area and it has a capacity for 150 people.
         </En>
-        <Es>La decoración y ambientación en el restaurante se sirve  en este  espacio para que genere placer. En él nos esforzamos en personalizar y gratificar con nuestros servicios su estadía, crear memorables momentos que llegan más allá de sus expectativas.
-        El comedor está decorado con artes de obra en repujados, tapices con escenas que recrea momentos históricos de la cosecha de café en nuestro país; pinturas en acuarela y en oleo; hermosos vitrales y una chimenea en ladrillos son algunos de los objetos que se pueden admirar y observar mientras se disgustan de nuestras especialidades gastronómicas nacionales e internacional, en donde prevalece la amabilidad y la notoria cortesía del personal. Esta atención a los huéspedes se prolonga desde las 6 am hasta las 10 pm.
-        En esta área se celebran todo tipo de eventos sociales y tiene una capacidad para 150 personas.
+        <Es>La decoraciÃ³n y ambientaciÃ³n en el restaurante se sirve  en este  espacio para que genere placer. En Ã©l nos esforzamos en personalizar y gratificar con nuestros servicios su estadÃ­a, crear memorables momentos que llegan mÃ¡s allÃ¡ de sus expectativas.
+        El comedor estÃ¡ decorado con artes de obra en repujados, tapices con escenas que recrea momentos histÃ³ricos de la cosecha de cafÃ© en nuestro paÃ­s; pinturas en acuarela y en oleo; hermosos vitrales y una chimenea en ladrillos son algunos de los objetos que se pueden admirar y observar mientras se disgustan de nuestras especialidades gastronÃ³micas nacionales e internacional, en donde prevalece la amabilidad y la notoria cortesÃ­a del personal. Esta atenciÃ³n a los huÃ©spedes se prolonga desde las 6 am hasta las 10 pm.
+        En esta Ã¡rea se celebran todo tipo de eventos sociales y tiene una capacidad para 150 personas.
         </Es>
     </translation>
     <translation id="businessCenterDescLng">
@@ -368,16 +379,16 @@
         There are two rooms enabled, The jungle and Rincon Azul, with capacity of 45 and 150 people respectively,they are enabled and equipped with materials and equipment needs, suitable for events such as conferences, seminars, weddings, baby showers, graduation party, lunches and private dinners; Likewise, enjoy our services of coffee break and the range of cuisine that we offer you in format menu, buffet or cocktail.
         </En>
         <Es>El hotel ofrece la posibilidad de celebrar distintos eventos con un servicio diferenciado donde prima la actitud.
-        Hay dos salas habilitadas, La Jungla y Rincón Azul, con capacidad de 45 y 150 personas respectivamente, están equipadas con materiales y equipos idóneos según la actividad: para eventos como conferencias, bodas, seminarios, baby showers, fiesta de graduación, almuerzos y cenas privadas; así mismo, puede disfruta de servicios de coffe break y la gama de gastronomía que le ofrecemos en formato de menú, buffet o coctel.
+        Hay dos salas habilitadas, La Jungla y RincÃ³n Azul, con capacidad de 45 y 150 personas respectivamente, estÃ¡n equipadas con materiales y equipos idÃ³neos segÃºn la actividad: para eventos como conferencias, bodas, seminarios, baby showers, fiesta de graduaciÃ³n, almuerzos y cenas privadas; asÃ­ mismo, puede disfruta de servicios de coffe break y la gama de gastronomÃ­a que le ofrecemos en formato de menÃº, buffet o coctel.
         </Es>
     </translation>
     <translation id="artGalleryDescLng">
         <En>Hotel Villa Tournon serves as an art gallery. In the areas of the hotel you will be encountering with an exposition of the three main historical traditional fine arts: architecture, sculpture and painting most of all.</En>
-        <Es>Hotel Villa Tournon es una galería de arte. En las diferentes áreas del hotel se aprecia una exposición de tres de las bellas artes históricamente tradicionales: la arquitectura, la escultura y la pintura. Siendo esta la más fecunda en el hotel.</Es>
+        <Es>Hotel Villa Tournon es una galerÃ­a de arte. En las diferentes Ã¡reas del hotel se aprecia una exposiciÃ³n de tres de las bellas artes histÃ³ricamente tradicionales: la arquitectura, la escultura y la pintura. Siendo esta la mÃ¡s fecunda en el hotel.</Es>
     </translation>
     <translation id="poolJacuzziDescLng">
         <En>The garden area with swimming pool and Jacuzzi is a unique full world retreat that accuses  a perfect  harmony of sun and shade: some  times the green grove  interrupt  the Sun causing shadow, and  in other moments the sun positioned  itself at another point which avoids disruption of the trees in its path.</En>
-        <Es>El área de jardín donde se encuentra la piscina y jacuzzi, es un refugio único en pleno orbe, acusa una perfección  armoniosa  entre sol y sombra, en que unas veces el verdor de la arboleda interrumpe el sol causando sombra y en otros momentos, el sol se posiciona en otro punto donde evade la interrupción de los arboles en su trayectoria.</Es>
+        <Es>El Ã¡rea de jardÃ­n donde se encuentra la piscina y jacuzzi, es un refugio Ãºnico en pleno orbe, acusa una perfecciÃ³n  armoniosa  entre sol y sombra, en que unas veces el verdor de la arboleda interrumpe el sol causando sombra y en otros momentos, el sol se posiciona en otro punto donde evade la interrupciÃ³n de los arboles en su trayectoria.</Es>
     </translation>
     <translation id="viewFullGalleryLng">
         <En>View Full Gallery</En>
@@ -385,15 +396,15 @@
     </translation>
     <translation id="phtotoGalleryLng">
         <En>Photo Gallery</En>
-        <Es>Galería de fotos</Es>
+        <Es>GalerÃ­a de fotos</Es>
     </translation>
     <translation id="ebonyLeft1Lng">
         <En>EUROPEAN FUSION CUISINE</En>
-        <Es>FUSIÓN DE GASTRONOMÍA EUROPEA</Es>
+        <Es>FUSIÃ“N DE GASTRONOMÃA EUROPEA</Es>
     </translation>
     <translation id="ebonyLeft2Lng">
         <En>and CARIBBEAN DELIGHTS</En>
-        <Es>Y DELICIAS CARIBEÑAS</Es>
+        <Es>Y DELICIAS CARIBEÃ‘AS</Es>
     </translation>
     <translation id="ebonyRight1Lng">
         <En>FOR YOUR HEALTH</En>
@@ -405,11 +416,11 @@
     </translation>
     <translation id="ebonyDesc1Lng">
         <En>Ebony and Ivory restaurant is a space recently designed in the hotel consisting of a modern and warm environment; where you can distinguish the decoration in black and white, in the ceilings, walls, furniture and tableware; additionally supplemented with arts including paintings, photographs and sculptures.</En>
-        <Es>El Restaurante Ebony and Ivory es un espacio recientemente diseñado en el hotel que consta de un entorno moderno y cálido; en la que se evidencia una decoración en blanco y negro, entre cielos, paredes, muebles y menaje; además complementado con artes entre pinturas, fotografías y esculturas.</Es>
+        <Es>El Restaurante Ebony and Ivory es un espacio recientemente diseÃ±ado en el hotel que consta de un entorno moderno y cÃ¡lido; en la que se evidencia una decoraciÃ³n en blanco y negro, entre cielos, paredes, muebles y menaje; ademÃ¡s complementado con artes entre pinturas, fotografÃ­as y esculturas.</Es>
     </translation>
     <translation id="ebonyDesc2Lng">
         <En>The cuisine also shares this dichotomy. You will be able to enjoy a dish fusion regarding European food mainly Spanish, French, and Italian likewise in one sense, and on the other, the cuisine of the Caribbean countries. The Caribbean representing the concept of Ebony and the european of Ivory.</En>
-        <Es>Su gastronomía comparte también esta dicotomía. La cocina es una fusión de platos europeos, fundamentalmente de las cocinas española, italiana y francesa, por una parte, por la otra, la culinaria de los países caribeños. La Caribeña en representación del concepto de Ebony y la europea a Ivory.</Es>
+        <Es>Su gastronomÃ­a comparte tambiÃ©n esta dicotomÃ­a. La cocina es una fusiÃ³n de platos europeos, fundamentalmente de las cocinas espaÃ±ola, italiana y francesa, por una parte, por la otra, la culinaria de los paÃ­ses caribeÃ±os. La CaribeÃ±a en representaciÃ³n del concepto de Ebony y la europea a Ivory.</Es>
     </translation>
     <translation id="privaterDiningLng">
         <En>Private dining</En>
@@ -417,7 +428,7 @@
     </translation>
     <translation id="fromCelebrationsLng">
         <En>From celebrations to intimate gatherings</En>
-        <Es>Desde celebraciones a reuniones íntimas</Es>
+        <Es>Desde celebraciones a reuniones Ã­ntimas</Es>
     </translation>
     <translation id="doingBusinessLng">
         <En>Doing Business</En>
@@ -425,7 +436,7 @@
     </translation>
     <translation id="doingBusinessDescLng">
         <En>Thematic restaurant oriented to business men and women who want to take lunch or dinner time to contact with business people and establish commercial relations.</En>
-        <Es>Restaurante temático orientado a hombres y mujeres de negocios que desean aprovechar la hora de almuerzo o cena para citas de negocios o establecer relaciones comerciales.</Es>
+        <Es>Restaurante temÃ¡tico orientado a hombres y mujeres de negocios que desean aprovechar la hora de almuerzo o cena para citas de negocios o establecer relaciones comerciales.</Es>
     </translation>
     <translation id="gourmetLng">
         <En>Gourmet Restaurant</En>
@@ -433,27 +444,27 @@
     </translation>
     <translation id="gourmetDescLng">
         <En>High-quality restaurant with gourmet dishes, upscale decoration and a qualified service at its best.</En>
-        <Es>Restaurante de alto nivel, con platos gourmet e innovadora decoración; además de un servicio súper calificado.</Es>
+        <Es>Restaurante de alto nivel, con platos gourmet e innovadora decoraciÃ³n; ademÃ¡s de un servicio sÃºper calificado.</Es>
     </translation>
     <translation id="perfectArmonyLng">
         <En>Perfect Armony</En>
-        <Es>Perfecta Armonía</Es>
+        <Es>Perfecta ArmonÃ­a</Es>
     </translation>
     <translation id="perfectArmonyDescLng">
         <En>A space for two where the sensorialty of the restaurant will seduces you to a perfect harmony.</En>
-        <Es>Un espacio para los dos donde la sensorialidad del restaurante le seduce en una perfecta armonía.</Es>
+        <Es>Un espacio para los dos donde la sensorialidad del restaurante le seduce en una perfecta armonÃ­a.</Es>
     </translation>
     <translation id="ArtGalleyDesc1Lng">
         <En>Hotel Villa Tournon serves as an art gallery. In the areas of the hotel you will be encountering with an exposition of the three main historical traditional fine arts: architecture, sculpture and painting most of all.</En>
-        <Es>Hotel Villa Tournon es una galería de arte. En las diferentes áreas del hotel se aprecia una exposición de tres de las bellas artes históricamente tradicionales: la arquitectura, la escultura y la pintura. Siendo esta la más fecunda en el hotel.</Es>
+        <Es>Hotel Villa Tournon es una galerÃ­a de arte. En las diferentes Ã¡reas del hotel se aprecia una exposiciÃ³n de tres de las bellas artes histÃ³ricamente tradicionales: la arquitectura, la escultura y la pintura. Siendo esta la mÃ¡s fecunda en el hotel.</Es>
     </translation>
     <translation id="ArtGalleyDesc2Lng">
         <En>A specify appreciation of architecture art can be seen in the sky craft, in the areas of the lobby, restaurant and bar.</En>
-        <Es>Una específica apreciación de arte arquitectónico es el artesanado que se puede observar en los cielos de las áreas del lobby, restaurante y bar.</Es>
+        <Es>Una especÃ­fica apreciaciÃ³n de arte arquitectÃ³nico es el artesanado que se puede observar en los cielos de las Ã¡reas del lobby, restaurante y bar.</Es>
     </translation>
     <translation id="ArtGalleyDesc3Lng">
         <En>Two sculpture pieces; one, a synonym of the lower body up to the waist of a woman, with a metamorphosis extension upward, in proportion in size to the related lower body. This piece was sculptured from a Guanacaste wood which is the national tree of Costa Rica; another is a sensory contemplation that can be held observing an African piece made out of Ebony wood. This work represents an African queen tenderly embracing two small children standing at her side. Rooms, passages and other areas are submitted to dozen of painting that make Hotel Villa Tournon a perfect gallery. This beauty is a key component to the experience added to your stay away from home</En>
-        <Es>Así mismo, se pueden subrayar dos piezas de escultura: uno, un sinónimo de la parte inferior de una mujer desde la cintura hacia abajo, con una extensión de metamorfosis hacia arriba, en proporción al tamaño de la parte inferior del cuerpo relacionado. Esta pieza fue esculpida en madera de Guanacaste, que es el árbol nacional de Costa Rica; la otra obra es una pieza africana, tallada en madera de ébano. Este trabajo representa a una reina africana abrazando tiernamente dos niños pequeños de pie a su lado. Las habitaciones, pasillos y otras áreas están sometidas a docenas de pinturas que hacen del Hotel Villa Tournon una extraordinaria galería. Esta belleza es un componente clave para la experiencia añadida a su estancia fuera de casa.</Es>
+        <Es>AsÃ­ mismo, se pueden subrayar dos piezas de escultura: uno, un sinÃ³nimo de la parte inferior de una mujer desde la cintura hacia abajo, con una extensiÃ³n de metamorfosis hacia arriba, en proporciÃ³n al tamaÃ±o de la parte inferior del cuerpo relacionado. Esta pieza fue esculpida en madera de Guanacaste, que es el Ã¡rbol nacional de Costa Rica; la otra obra es una pieza africana, tallada en madera de Ã©bano. Este trabajo representa a una reina africana abrazando tiernamente dos niÃ±os pequeÃ±os de pie a su lado. Las habitaciones, pasillos y otras Ã¡reas estÃ¡n sometidas a docenas de pinturas que hacen del Hotel Villa Tournon una extraordinaria galerÃ­a. Esta belleza es un componente clave para la experiencia aÃ±adida a su estancia fuera de casa.</Es>
     </translation>
     <translation id="ArtGalleyDesc4Lng">
         <En>We welcome you to enjoy the variety of these visual arts.</En>
@@ -461,11 +472,11 @@
     </translation>
     <translation id="ContactUsLng">
         <En>Contact Us</En>
-        <Es>Contáctenos</Es>
+        <Es>ContÃ¡ctenos</Es>
     </translation>
     <translation id="DropLineLng">
         <En>Drop us a line</En>
-        <Es>Escríbanos con confianza, estamos para servir</Es>
+        <Es>EscrÃ­banos con confianza, estamos para servir</Es>
     </translation>
     <translation id="WriteLng">
         <En>Write</En>
@@ -485,35 +496,35 @@
     </translation>
     <translation id="aboutUsDesc1Lng">
         <En>I am Leslie Wilson Shimpson, General Manager of Hotel Villa Tournon, Costa Rican by birth. I started working in hospitality at the age of 21 in 1966 as a waiter.</En>
-        <Es>Soy Leslie Wilson Shimpson, Gerente General del Hotel Villa Tournon, Costarricense de nacimiento. Comencé a trabajar en  hotelería a la edad de 21 años en 1966, como camarero.</Es>
+        <Es>Soy Leslie Wilson Shimpson, Gerente General del Hotel Villa Tournon, Costarricense de nacimiento. ComencÃ© a trabajar en  hotelerÃ­a a la edad de 21 aÃ±os en 1966, como camarero.</Es>
     </translation>
     <translation id="aboutUsDesc2Lng">
         <En>Job opportunities in Costa Rica was not easy then; Therefore I began to offer my services to work for free with the firm conviction that in time, the workplace would offer to pay me a salary; but the places I visited; I guess they had doubt my good faith.</En>
-        <Es>Oportunidad de trabajo en Costa Rica no era fácil entonces; por tal motivo empecé a ofrecer mis servicios para trabajar gratuitamente con la firme convicción de que en poco tiempo, el lugar de trabajo me  ofrecería pagar un salario; mas los lugares que visité; supongo  que tuvieron duda de mi buena fe.</Es>
+        <Es>Oportunidad de trabajo en Costa Rica no era fÃ¡cil entonces; por tal motivo empecÃ© a ofrecer mis servicios para trabajar gratuitamente con la firme convicciÃ³n de que en poco tiempo, el lugar de trabajo me  ofrecerÃ­a pagar un salario; mas los lugares que visitÃ©; supongo  que tuvieron duda de mi buena fe.</Es>
     </translation>
     <translation id="aboutUsDesc3Lng">
         <En>In less than two years working as a waiter and in other post I got to the position of assistant manager of the hotel; months before completing four years of work in the company, my boss and I become partners in a new hotel. After two years I acquired his share and became the sole owner. During that period I had not completed high school.</En>
-        <Es>En menos de dos años trabajando como camarero y en otros puestos me escale al puesto de asistente del Gerente del hotel; meses antes de completar  cuatro años de trabajar en la empresa, mi jefe y yo nos convertimos en socios en un nuevo hotel. Transcurridos  dos años adquirí su participación y me convertí  en el único propietario. Durante ese período no había completado la escuela secundaria.</Es>
+        <Es>En menos de dos aÃ±os trabajando como camarero y en otros puestos me escale al puesto de asistente del Gerente del hotel; meses antes de completar  cuatro aÃ±os de trabajar en la empresa, mi jefe y yo nos convertimos en socios en un nuevo hotel. Transcurridos  dos aÃ±os adquirÃ­ su participaciÃ³n y me convertÃ­  en el Ãºnico propietario. Durante ese perÃ­odo no habÃ­a completado la escuela secundaria.</Es>
     </translation>
     <translation id="aboutUsDesc4Lng">
         <En>Today I am a lawyer and also went to journalism school.</En>
-        <Es>En la actualidad soy abogado y también fui a la escuela de periodismo.</Es>
+        <Es>En la actualidad soy abogado y tambiÃ©n fui a la escuela de periodismo.</Es>
     </translation>
     <translation id="aboutUsDesc5Lng">
         <En>I founded Hotel Villa Tournon in 1992. Forty-nine years have gone by since I started to work in hospitality. I have a great passion for my job, I love dealing with people of all nationalities. My mission is to convey to a new generation of hospitality workers the satisfaction which can be experienced assisting strangers every day.</En>
-        <Es>Fundé Hotel Villa Tournon en 1992. Cuarenta y nueve años han transcurrido desde que empecé a trabajar en hotelería. Tengo una gran pasión por mi trabajo, me encanta tratar con la gente de todas las nacionalidades. Mi misión es transmitir a una nueva generación en hospitalidad la satisfacción que se experimenta apoyando a extraños todos los días. </Es>
+        <Es>FundÃ© Hotel Villa Tournon en 1992. Cuarenta y nueve aÃ±os han transcurrido desde que empecÃ© a trabajar en hotelerÃ­a. Tengo una gran pasiÃ³n por mi trabajo, me encanta tratar con la gente de todas las nacionalidades. Mi misiÃ³n es transmitir a una nueva generaciÃ³n en hospitalidad la satisfacciÃ³n que se experimenta apoyando a extraÃ±os todos los dÃ­as. </Es>
     </translation>
     <translation id="aboutUsDesc6Lng">
         <En>Thanks for your visit; I hope you enjoy our web site</En>
-        <Es>Gracias por visitar nuestra página, espero que la disfruten</Es>
+        <Es>Gracias por visitar nuestra pÃ¡gina, espero que la disfruten</Es>
     </translation>
     <translation id="bookinInfoLng">
         <En>Booking Info</En>
-        <Es>Información de la reserva</Es>
+        <Es>InformaciÃ³n de la reserva</Es>
     </translation>
     <translation id="personalInfoLng">
         <En>Personal Info</En>
-        <Es>Información Personal</Es>
+        <Es>InformaciÃ³n Personal</Es>
     </translation>
     <translation id="personLng">
         <En>Person</En>
@@ -533,15 +544,15 @@
     </translation>
     <translation id="children10Lng">
         <En>Children under 10 years using the facilities of parents are free of charge without extras include accommodations and meals</En>
-        <Es>Niños menores a 10 años acompañados de sus padres no pagan la estadía, no incluye extras de alimentación</Es>
+        <Es>NiÃ±os menores a 10 aÃ±os acompaÃ±ados de sus padres no pagan la estadÃ­a, no incluye extras de alimentaciÃ³n</Es>
     </translation>
     <translation id="childrenMaxLng">
         <En>The max number of children per room is two</En>
-        <Es>El número máximo de niños es dos por habitación</Es>
+        <Es>El nÃºmero mÃ¡ximo de niÃ±os es dos por habitaciÃ³n</Es>
     </translation>
     <translation id="childrenBreakfastLng">
         <En>The breakfast price for children is $5</En>
-        <Es>El desayuno por niño es de $5</Es>
+        <Es>El desayuno por niÃ±o es de $5</Es>
     </translation>
     <translation id="ratesUSDLng">
         <En>The rates are calculated in USD</En>
@@ -549,19 +560,19 @@
     </translation>
     <translation id="smokeFreeLng">
         <En>The hotel is smoke free and it is penalized contrary acts</En>
-        <Es>El hotel es libre de humo, actos contrarios serán penalizados</Es>
+        <Es>El hotel es libre de humo, actos contrarios serÃ¡n penalizados</Es>
     </translation>
     <translation id="taxIncludedLng">
         <En>All taxes are included</En>
-        <Es>Todos los impuestos incluídos</Es>
+        <Es>Todos los impuestos incluÃ­dos</Es>
     </translation>
     <translation id="successLng">
         <En>Your reservation was succefull submited! Soon we will contact you!</En>
-        <Es>Su reservación ha sido enviada exitósamente. Pronto nos comunicaremos con usted.</Es>
+        <Es>Su reservaciÃ³n ha sido enviada exitÃ³samente. Pronto nos comunicaremos con usted.</Es>
     </translation>
     <translation id="succesContactLng">
         <En>Your message was succefull submited! Soon we will contact you!</En>
-        <Es>Su mensaje ha sido enviado exitósamente. Pronto nos comunicaremos con usted.</Es>
+        <Es>Su mensaje ha sido enviado exitÃ³samente. Pronto nos comunicaremos con usted.</Es>
     </translation>
     <translation id="firstNameLng">
         <En>First Name:</En>
@@ -577,7 +588,7 @@
     </translation>
     <translation id="telNumberLng">
         <En>Telephone Number:</En>
-        <Es>Número de Teléfono:</Es>
+        <Es>NÃºmero de TelÃ©fono:</Es>
     </translation>
     <translation id="notesLng">
         <En>Notes:</En>
@@ -589,7 +600,7 @@
     </translation>
     <translation id="countryLng">
         <En>Country:</En>
-        <Es>País:</Es>
+        <Es>PaÃ­s:</Es>
     </translation>
     <translation id="grandTotalLng">
         <En>Grand Total:</En>
@@ -605,11 +616,11 @@
     </translation>
     <translation id="ContactMaillng">
         <En>Email:</En>
-        <Es>Correo Electrónico:</Es>
+        <Es>Correo ElectrÃ³nico:</Es>
     </translation>
     <translation id="standardTitleLng">
         <En>Standard Room</En>
-        <Es>Habitación Estandar</Es>
+        <Es>HabitaciÃ³n Estandar</Es>
     </translation>
     <translation id="makeReservationLng">
         <En>Make a Reservation</En>
@@ -617,19 +628,19 @@
     </translation>
     <translation id="descriptionLng">
         <En>Description</En>
-        <Es>Descripción</Es>
+        <Es>DescripciÃ³n</Es>
     </translation>
     <translation id="standardDescription1Lng">
         <En>The rooms have a fine wood park flooring, they were the first hotel rooms when it was permitted the use and marketing of this protected wood currently by law.</En>
-        <Es>Todas las habitaciones son  de pisos de fina madera parqué, fueron las primeras habitaciones del hotel cuando era permitido el uso y comercialización de esta protegida madera en la actualidad por ley.</Es>
+        <Es>Todas las habitaciones son  de pisos de fina madera parquÃ©, fueron las primeras habitaciones del hotel cuando era permitido el uso y comercializaciÃ³n de esta protegida madera en la actualidad por ley.</Es>
     </translation>
     <translation id="standardDescription2Lng">
         <En>This room have an area of 24 m2 and 33m2, they have different locations in the building, some overlook an internal garden to a fountain, and, also others looking towards an external garden surrounding the pool, and a view towards the city.</En>
-        <Es>Tienen de área 24 y  33 m2    disponen de diferentes ubicaciones en la edificación, vista a jardines internos a una fuente y externa hacia el jardín rodeando la piscina, además vista hacia la ciudad.</Es>
+        <Es>Tienen de Ã¡rea 24 y  33 m2    disponen de diferentes ubicaciones en la edificaciÃ³n, vista a jardines internos a una fuente y externa hacia el jardÃ­n rodeando la piscina, ademÃ¡s vista hacia la ciudad.</Es>
     </translation>
     <translation id="standardDescription3Lng">
         <En>They are furnished with a double bed or two single beds, bathroom with shower and tub, an area with chairs and table, TV with and without flat screen, closet, toilet and have access to safety deposit box in the reception area; none misses the attractive paintings which is a pride of the hotel.</En>
-        <Es>Están amuebladas con una cama matrimonial o dos camas sencillas, baño con ducha y tina, un área con sillas y mesa, televisor con y sin pantalla plana, closet, tocador y tienen acceso a caja de seguridad en el área de recepción, sin faltar en la decoración de atractivas pinturas que son el orgullo del hotel.</Es>
+        <Es>EstÃ¡n amuebladas con una cama matrimonial o dos camas sencillas, baÃ±o con ducha y tina, un Ã¡rea con sillas y mesa, televisor con y sin pantalla plana, closet, tocador y tienen acceso a caja de seguridad en el Ã¡rea de recepciÃ³n, sin faltar en la decoraciÃ³n de atractivas pinturas que son el orgullo del hotel.</Es>
     </translation>
     <translation id="overlookGardenLng">
         <En>Overlook internal and external garden</En>
@@ -649,7 +660,7 @@
     </translation>
     <translation id="safetyBoxReceptionLng">
         <En>Safety Box in the reception</En>
-        <Es>Caja de seguridad en recepción</Es>
+        <Es>Caja de seguridad en recepciÃ³n</Es>
     </translation>
     <translation id="relatedRommsLng">
         <En>Related Rooms</En>
@@ -657,23 +668,23 @@
     </translation>
     <translation id="deluxeTitleLng">
         <En>Deluxe Room</En>
-        <Es>Habitación Deluxe</Es>
+        <Es>HabitaciÃ³n Deluxe</Es>
     </translation>
     <translation id="superiorTitleLng">
         <En>Superior Room</En>
-        <Es>Habitación Superior</Es>
+        <Es>HabitaciÃ³n Superior</Es>
     </translation>
     <translation id="deluxeDescription1Lng">
         <En>Are distinguished by its exquisite location, overlooking a fountain, surrounded by a garden in a courtyard which ensures peace of mind. These rooms have an area between 30.35 and 39.05 m2, decorated with colorful pictures that make one harmonious with the king-sized bed and comfortable furniture in order to give life to a beautiful and pleasant stay; also has coffee maker, mini bar, TV with flat screen, hair dryer and phone.</En>
-        <Es>Se distinguen por su exquisita ubicación, vista hacia una fuente, rodeado por un jardín en un patio interno que garantiza tranquilidad. Estas habitaciones tienen un área entre 30.35  y 39.05  m2,  decoradas con vistosos cuadros que hacen una armoniosa conjunto con la cama King y los confortables muebles a fin de darle vida a una estancia hermosa y agradable; así mismo cuenta con coffe maker, mini bar, televisor con pantalla plana, secadora de cabello y teléfono.</Es>
+        <Es>Se distinguen por su exquisita ubicaciÃ³n, vista hacia una fuente, rodeado por un jardÃ­n en un patio interno que garantiza tranquilidad. Estas habitaciones tienen un Ã¡rea entre 30.35  y 39.05  m2,  decoradas con vistosos cuadros que hacen una armoniosa conjunto con la cama King y los confortables muebles a fin de darle vida a una estancia hermosa y agradable; asÃ­ mismo cuenta con coffe maker, mini bar, televisor con pantalla plana, secadora de cabello y telÃ©fono.</Es>
     </translation>
     <translation id="deluxeDescription2Lng">
         <En>The bathrooms are equipped with shower and bathtub, some with bidet. The room has a privileged floor wood Park.</En>
-        <Es>Los baños están equipados con ducha y tina, algunos además con bidé.  La habitación tiene un privilegiado piso de madera parqué.</Es>
+        <Es>Los baÃ±os estÃ¡n equipados con ducha y tina, algunos ademÃ¡s con bidÃ©.  La habitaciÃ³n tiene un privilegiado piso de madera parquÃ©.</Es>
     </translation>
     <translation id="superiorDescription1Lng">
         <En>There are rooms with an area of 33m2 they have a spacious bathroom with shower and tub and its respective amenities, an area with living room, some with King size bed and other with two double beds, telephone, flat screen TV with over 50 channels to choose from, wide closet, mini refrigerator, safe deposit boxes, iron and table ironing, coffee maker and hair dryer, rooms are carpeted.</En>
-        <Es>Son habitaciones con un área de   33 m2 disponen de amplio baño con ducha y tina y sus respectivos amenidades, un área con sala de estar, algunas con cama King  y otras con dos camas matrimoniales, teléfono , televisor con pantalla plana con más de 50 canales a escoger, amplio closet, mini refrigeradora, cajas de seguridad, plancha y mesa de aplanchado,  coffe maker y secadora de pelo, son habitaciones alfombradas.</Es>
+        <Es>Son habitaciones con un Ã¡rea de   33 m2 disponen de amplio baÃ±o con ducha y tina y sus respectivos amenidades, un Ã¡rea con sala de estar, algunas con cama King  y otras con dos camas matrimoniales, telÃ©fono , televisor con pantalla plana con mÃ¡s de 50 canales a escoger, amplio closet, mini refrigeradora, cajas de seguridad, plancha y mesa de aplanchado,  coffe maker y secadora de pelo, son habitaciones alfombradas.</Es>
     </translation>
     <translation id="superiorDescription2Lng">
         <En>The paintings selected for these rooms allowed to appreciate them.</En>
@@ -685,7 +696,7 @@
     </translation>
     <translation id="phoneLng">
         <En>Phone</En>
-        <Es>Teléfono</Es>
+        <Es>TelÃ©fono</Es>
     </translation>
     <translation id="kingBedLng">
         <En>King bed sized</En>
@@ -717,11 +728,11 @@
     </translation>
     <translation id="addressLng">
         <En>Address:</En>
-        <Es>Dirección: </Es>
+        <Es>DirecciÃ³n: </Es>
     </translation>
     <translation id="POBoxLng">
-        <En> P.O BOX 6606 - 1000 SAN JOSÉ, COSTA RICA</En>
-        <Es> APARTADO 6606 - 1000 SAN JOSÉ, COSTA RICA</Es>
+        <En> P.O BOX 6606 - 1000 SAN JOSÃ‰, COSTA RICA</En>
+        <Es> APARTADO 6606 - 1000 SAN JOSÃ‰, COSTA RICA</Es>
     </translation>
     <translation id="earlyCheckInLng">
         <En>Early check-in upon availability</En>
@@ -752,19 +763,19 @@
         <Es>F. Mercado Central</Es>
     </translation>
     <translation id="SimonZooLng">
-        <En>G. Simón Boliver Zoo</En>
-        <Es>G. Zoológico Simón Bolivar</Es>
+        <En>G. SimÃ³n Boliver Zoo</En>
+        <Es>G. ZoolÃ³gico SimÃ³n Bolivar</Es>
     </translation>
     <translation id="butterflyGardenLng">
         <En>H. Spirogyra Butterfly Garden</En>
-        <Es>H. Jardín de Mariposas Spirogyra</Es>
+        <Es>H. JardÃ­n de Mariposas Spirogyra</Es>
     </translation>
     <translation id="childrenMuseumLng">
         <En>I. Children Museum</En>
-        <Es>I. Museo de Niños</Es>
+        <Es>I. Museo de NiÃ±os</Es>
     </translation>
     <translation id="caribbeanLng">
         <En>J. Caribbean Terminal</En>
-        <Es>J. Terminal de los Caribeños</Es>
+        <Es>J. Terminal de los CaribeÃ±os</Es>
     </translation>
 </translations>
